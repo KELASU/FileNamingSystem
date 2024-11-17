@@ -3,7 +3,7 @@ import pandas as pd
 from PyPDF2 import PdfReader
 import docx
 import re
-
+from datetime import datetime
 def extract_text_from_pdf(file_path):
 
     reader = PdfReader(file_path)
@@ -62,11 +62,13 @@ def process_folder(directory):
                     continue 
                 
                 fields = extract_fields(content)
+                timestamp = os.path.getctime(path)
+                readable_date = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
                 data.append({
                     "filename": file,
                     "extension": extension,
                     "size": os.path.getsize(path),
-                    "created_at": os.path.getctime(path),
+                    "created_at": readable_date,
                     "content": content,
                     "name": fields["name"],
                     "title": fields["title"],
