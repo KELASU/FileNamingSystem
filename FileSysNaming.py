@@ -4,9 +4,6 @@ from PyPDF2 import PdfReader
 import docx
 
 def extract_text(file_path):
-    """
-    Extract text from a file (PDF or Word).
-    """
     extension = os.path.splitext(file_path)[-1].lower()
     if extension == ".pdf":
         return PdfReader(file_path).pages[0].extract_text()  # Example: First page
@@ -15,9 +12,6 @@ def extract_text(file_path):
     return ""
 
 def rename_files(directory, model_path, vectorizer_path):
-    """
-    Rename files based on content predictions.
-    """
     model = joblib.load(model_path)
     vectorizer = joblib.load(vectorizer_path)
 

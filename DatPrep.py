@@ -4,9 +4,6 @@ from PyPDF2 import PdfReader
 import docx
 
 def extract_text_from_pdf(file_path):
-    """
-    Extract text from a PDF file.
-    """
     reader = PdfReader(file_path)
     text = ""
     for page in reader.pages:
@@ -14,17 +11,11 @@ def extract_text_from_pdf(file_path):
     return text
 
 def extract_text_from_docx(file_path):
-    """
-    Extract text from a Word document (.docx).
-    """
     doc = docx.Document(file_path)
     text = "\n".join([para.text for para in doc.paragraphs])
     return text
 
 def collect_file_data(directory):
-    """
-    Collect metadata and text content from files in a directory.
-    """
     data = []
     for root, _, files in os.walk(directory):
         for file in files:
@@ -37,7 +28,7 @@ def collect_file_data(directory):
                 elif extension == ".docx":
                     content = extract_text_from_docx(path)
                 else:
-                    continue  # Skip unsupported formats
+                    continue
                 data.append({
                     "filename": file,
                     "extension": extension,
