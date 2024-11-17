@@ -1,0 +1,113 @@
+filename,extension,size,created_at,content
+2602119272_1stPaper.docx,.docx,17613,1729474549.9867954,"Kenneth Lay – 2602119272
+Assignment 1 : Review Paper on “Smart City : Technologies and challenges”
+Summary of the Paper
+The paper by Kincho H. Law and Jerome P. Lynch discusses the growing trend of smart cities, focusing on technological advancements in the U.S. It highlights how Information and Communication Technologies (ICT) can be integrated into urban environments to enhance areas such as transportation, environmental sustainability, healthcare, and education. 
+The authors explore both the benefits and the challenges that accompany the adoption of smart city technologies, particularly concerning security, privacy, and inclusiveness. The paper also examines the impact of smart city initiatives on physical infrastructure and policy development, presenting a balanced overview of these innovations while acknowledging the challenges that must be addressed.
+
+Identification of Gaps
+A significant gap in the paper is its U.S.-centric perspective, limiting the discussion to challenges and solutions relevant to the U.S. context. The authors do not explore how smart city technologies might differ in their application and effectiveness in other regions with varying cultural, social, and economic conditions. Moreover, the paper overlooks the broader social implications of smart cities, such as the impact on societal hierarchies and community engagement. The authors focus primarily on technological aspects, missing opportunities to delve deeper into how these advancements affect citizens’ daily lives and societal structures.
+
+Analysis of Ambiguities
+The paper introduces some terms such as ""smart city"" and ""smart grid"" but never properly define what truly is this “smart city” and “smart grid” they are referring to. For instance, the concept of a smart city is defined largely in terms of its technological components without clarifying the end goal or broader vision beyond operational efficiency. Similarly, the term ""smart grid"" is discussed in technical terms without sufficiently explaining how it differs from traditional grids, especially for a non-technical audience. Furthermore, the paper’s presentation of ""spatiotemporal crime statistics"" is introduced without offering a clear definition of its mechanics, leaving readers unfamiliar with urban analytics confused about its real-world application.
+
+Evaluation of Methodologies
+The paper is based on a literature review and other papers, synthesizing existing research on smart city technologies. While this approach provides a broad overview of current advancements, it falls short in addressing the social and cultural implications of smart cities. The focus on technology, while comprehensive, tends to overshadow other important aspects such as the government, community engagement, and ethical considerations. Furthermore, the comparative analysis between different technological advancements is limited, largely due to the lack of smart city development in diverse regions, which the authors acknowledge.
+The methodologies in the paper lean more toward speculative discussions of the potential of smart cities rather than quantitative or qualitative analysis of specific implementations. A more rigorous evaluation of how well these technologies perform under different conditions would have strengthened the paper's argument.
+
+Discussion of Questions Raised
+There are several questions that should or could be raised from this paper. For instance, how do cities balance the trade-off between technological advancement and preserving privacy? How can policymakers develop frameworks to manage the rapid advancement in smart city technologies? The more important topic the paper also leaves open is the question of how to effectively measure the ""success"" of smart city initiatives. Should success be gauged primarily through economic gains and efficiency improvements, or should the focus be broader, including improvements in social equity, quality of life, and environmental sustainability?
+
+Critical Reflection
+The paper offers a valuable contribution to the discussion of smart cities, providing insights into both the benefits and challenges of integrating technology into urban environments. However, there are some key oversight one of them being its limited discussion of citizen involvement in the planning and execution of smart city technologies. The paper does not explore how citizens can actively shape the technologies that affect their everyday lives. Furthermore, there is little reflection on the environmental impact of implementing such large-scale technologies, especially regarding energy consumption and electronic waste from sensor networks and smart devices. The paper could benefit or improve more from exploring deeper into the question asked and researching into more depth on other social and environmental matters.
+
+Conclusion
+The paper successfully provides an overview of smart city technologies, highlighting the potential benefits of ICT integration in urban settings. It also raises important concerns about security, privacy, inclusiveness, and infrastructure that need to be addressed for smart cities to become fully functional and sustainable. However, the U.S.-centric approach and lack of attention to social and cultural factors present limitations that should be addressed in future work. Overall, the paper serves as a useful starting point for understanding the technological aspects of smart cities but leaves room for deeper exploration of the societal impacts.
+
+Future Research Proposals 
+It is suggested for future research it should be more focused on the long-term social and cultural impacts of smart city technologies, particularly in regions outside the U.S. or Developed countries. Comparative studies of smart city implementations in diverse urban settings could provide a broader understanding of the challenges and opportunities that arise in different contexts. Additionally, research should explore the role of community engagement and governance in shaping the development of smart cities, as well as more concrete solutions to the privacy and security issues identified in the paper.
+
+Personal Insights
+Well personally, this paper is very relevant I would say to today’s era, and it should also be very relevant to Indonesia, as Indonesia themselves are trying to develop a smart city which is Nusantara. So, this paper could bring some insight into developing a smart city. However, as it is written in this paper review, even though there are useful insights to be learned this paper falls short in addressing the social and cultural implications of smart cities. But it’s overall a very insightful and interesting paper."
+2602119272_2ndPaper.pdf,.pdf,47208,1729520868.3219852,"Kenneth Lay – 2602119272  
+Review Paper: Exploring the La test LLMs 
+for Leade rboard Extraction  
+Summary of the Paper:  
+The paper titled ""Exploring the Latest LLMs for Leaderboard Extraction"" investigates the 
+effectiveness of various state -of-the-art Large Language Models (LLMs) in extracting 
+leaderboard data from  research papers. The study focuses on Mistral 7B, Llama -2, GPT-
+4-Turbo, and GPT -4.o, analyzing their ability to extract (Task, Dataset, Metric, Score) 
+quadruples essential for creating leaderboards that rank AI models. The authors used 
+three types of cont extual inputs —DocTAET, DocREC, and DocFULL —to evaluate the 
+models' precision in few -shot and zero -shot scenarios. The research underscores the 
+importance of selecting appropriate context to maximize model accuracy, with Mistral 
+7B outperforming other model s in most cases.  
+ 
+Identification of Gaps  
+Although the paper broadens its scope to various domains of scientific research, a gap 
+exists in how the models would perform in fields with vastly different structures, such 
+as humanities or social sciences. Additionally, while optimization techniques lik e 
+instruction tuning were used, the paper does not explore in depth the impact of different 
+fine-tuning strategies on performance across these non -traditional fields. Lastly, the 
+evaluation metrics focus primarily on accuracy, leaving out considerations fo r practical 
+scalability when handling papers with highly inconsistent or ambiguous formatting.  
+ 
+Analysis of Ambiguities 
+The methodology employed by the  paper’s authors, particularly the use of three distinct 
+context types (DocTAET, DocREC, and DocFULL), provide d very useful insight into how 
+different models handle d varied inputs. However, while the methodology is well  
+detailed for extraction tasks, the paper does not sufficiently explore other alternative 
+evaluation metrics other than  ROUGE, such as extraction -specific F1 scores. The 
+inclusion of instruction tuning for optimization is a strong aspect of the study, but the 
+research could have benefitted from experimenting with hybrid models combining LLMs 
+and rule-based systems for a mo re comprehensive comparison.  
+ Evaluation of Methodology  
+The methodology employed by the authors, particularly the use of three distinct context 
+types (DocTAET, DocREC, and DocFULL), provides useful insight into how different 
+models handle varied inputs. However, while the methodology is well -detailed for 
+extraction tasks, the paper does not sufficiently explore alternative evaluation metrics 
+beyond ROUGE, such as extraction -specific F1 scores.  
+ 
+Discussion of Question Raised  
+The study raises  some critical questions regarding the scalability and domain specificity 
+of leaderboard extraction. Specifically, how well would these LLMs perform when they 
+are applied to research papers within non-technical fields with  more diverse and less 
+structured formats? Additionally, the question of how to manage hallucinations in 
+longer contexts, such as DocFULL, remains partially unanswered. The trade -off 
+between context length and extraction accuracy is an important issue that warr ants 
+further exploration.  
+ 
+Critical Reflection  
+The study has shown valuable findings on the capabilities of LLMs in leaderboard 
+extraction across a broad spectrum of scientific fields. However, while optimization was 
+achieved through instruction tuning, the paper could have delved deeper into  how 
+different fine -tuning approaches  such as domain  specific models could enhance the 
+extraction process further. Another area for some critical reflection is the scalability of 
+the methodology for tracking real -time research advancements across an ever -
+expanding body of work.  
+ 
+Conclus ion 
+The paper successfully  and wonderfully  demonstrate d that LLMs like Mistral 7B, Llama -
+2, GPT-4-Turbo, and GPT -4.o can automate leaderboard extraction across various 
+scientific domains with high accuracy. Mistral 7B emerged as a leader in both few -shot 
+and zero-shot settings, with the study showing the impor tance of selecting the 
+appropriate context (DocTAET, DocREC) to optimize performance. The research 
+highlights that LLMs, when properly optimized, are able to handle a broad range of 
+disciplines.  
+ Future Research Prop osal  
+Future research could explore applying LLMs to a broader range of fields, like 
+humanities or social sciences, to see how well they handle different types of research 
+papers. Combining LLMs with traditional rule -based methods could also improve 
+leaderboard extraction, making the process more reliable across various domains. 
+Additionally, they could use other evaluation met rices to get more in-depth analysis on 
+their result . Finally, tackling the issue of hallucinations, particularly with longer 
+documents, would make the models more trustworthy for real -world use.  
+ 
+Personal Insights  
+I really enjoyed this paper and found the research approach to be quite impressive  I 
+must say . The way the authors used different contexts, like DocTAET and DocREC, to 
+optimize leaderboard extraction was particularly clever. I also liked how they compared 
+both open -source and proprietary models, giving a balanced view of their performance. 
+The attention to detail and design made the results  clearer and more practical . Overall, 
+it’s a very well-executed study that  clearly showcases the growing potential of LLMs, 
+and I appreciate how thoroughly they explored the topic.  "
