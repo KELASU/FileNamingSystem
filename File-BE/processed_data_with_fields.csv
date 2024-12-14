@@ -1,0 +1,2089 @@
+filename,extension,size,created_at,content,name,title,student_id
+2602119272_1stPaper.docx,.docx,17613,2024-10-21 08:35:49,"Kenneth Lay – 2602119272
+Assignment 1 : Review Paper on “Smart City : Technologies and challenges”
+Summary of the Paper
+The paper by Kincho H. Law and Jerome P. Lynch discusses the growing trend of smart cities, focusing on technological advancements in the U.S. It highlights how Information and Communication Technologies (ICT) can be integrated into urban environments to enhance areas such as transportation, environmental sustainability, healthcare, and education. 
+The authors explore both the benefits and the challenges that accompany the adoption of smart city technologies, particularly concerning security, privacy, and inclusiveness. The paper also examines the impact of smart city initiatives on physical infrastructure and policy development, presenting a balanced overview of these innovations while acknowledging the challenges that must be addressed.
+
+Identification of Gaps
+A significant gap in the paper is its U.S.-centric perspective, limiting the discussion to challenges and solutions relevant to the U.S. context. The authors do not explore how smart city technologies might differ in their application and effectiveness in other regions with varying cultural, social, and economic conditions. Moreover, the paper overlooks the broader social implications of smart cities, such as the impact on societal hierarchies and community engagement. The authors focus primarily on technological aspects, missing opportunities to delve deeper into how these advancements affect citizens’ daily lives and societal structures.
+
+Analysis of Ambiguities
+The paper introduces some terms such as ""smart city"" and ""smart grid"" but never properly define what truly is this “smart city” and “smart grid” they are referring to. For instance, the concept of a smart city is defined largely in terms of its technological components without clarifying the end goal or broader vision beyond operational efficiency. Similarly, the term ""smart grid"" is discussed in technical terms without sufficiently explaining how it differs from traditional grids, especially for a non-technical audience. Furthermore, the paper’s presentation of ""spatiotemporal crime statistics"" is introduced without offering a clear definition of its mechanics, leaving readers unfamiliar with urban analytics confused about its real-world application.
+
+Evaluation of Methodologies
+The paper is based on a literature review and other papers, synthesizing existing research on smart city technologies. While this approach provides a broad overview of current advancements, it falls short in addressing the social and cultural implications of smart cities. The focus on technology, while comprehensive, tends to overshadow other important aspects such as the government, community engagement, and ethical considerations. Furthermore, the comparative analysis between different technological advancements is limited, largely due to the lack of smart city development in diverse regions, which the authors acknowledge.
+The methodologies in the paper lean more toward speculative discussions of the potential of smart cities rather than quantitative or qualitative analysis of specific implementations. A more rigorous evaluation of how well these technologies perform under different conditions would have strengthened the paper's argument.
+
+Discussion of Questions Raised
+There are several questions that should or could be raised from this paper. For instance, how do cities balance the trade-off between technological advancement and preserving privacy? How can policymakers develop frameworks to manage the rapid advancement in smart city technologies? The more important topic the paper also leaves open is the question of how to effectively measure the ""success"" of smart city initiatives. Should success be gauged primarily through economic gains and efficiency improvements, or should the focus be broader, including improvements in social equity, quality of life, and environmental sustainability?
+
+Critical Reflection
+The paper offers a valuable contribution to the discussion of smart cities, providing insights into both the benefits and challenges of integrating technology into urban environments. However, there are some key oversight one of them being its limited discussion of citizen involvement in the planning and execution of smart city technologies. The paper does not explore how citizens can actively shape the technologies that affect their everyday lives. Furthermore, there is little reflection on the environmental impact of implementing such large-scale technologies, especially regarding energy consumption and electronic waste from sensor networks and smart devices. The paper could benefit or improve more from exploring deeper into the question asked and researching into more depth on other social and environmental matters.
+
+Conclusion
+The paper successfully provides an overview of smart city technologies, highlighting the potential benefits of ICT integration in urban settings. It also raises important concerns about security, privacy, inclusiveness, and infrastructure that need to be addressed for smart cities to become fully functional and sustainable. However, the U.S.-centric approach and lack of attention to social and cultural factors present limitations that should be addressed in future work. Overall, the paper serves as a useful starting point for understanding the technological aspects of smart cities but leaves room for deeper exploration of the societal impacts.
+
+Future Research Proposals 
+It is suggested for future research it should be more focused on the long-term social and cultural impacts of smart city technologies, particularly in regions outside the U.S. or Developed countries. Comparative studies of smart city implementations in diverse urban settings could provide a broader understanding of the challenges and opportunities that arise in different contexts. Additionally, research should explore the role of community engagement and governance in shaping the development of smart cities, as well as more concrete solutions to the privacy and security issues identified in the paper.
+
+Personal Insights
+Well personally, this paper is very relevant I would say to today’s era, and it should also be very relevant to Indonesia, as Indonesia themselves are trying to develop a smart city which is Nusantara. So, this paper could bring some insight into developing a smart city. However, as it is written in this paper review, even though there are useful insights to be learned this paper falls short in addressing the social and cultural implications of smart cities. But it’s overall a very insightful and interesting paper.",Kenneth Lay,Kenneth Lay – 2602119272,
+2602119272_2ndPaper.pdf,.pdf,47208,2024-10-21 21:27:48,"Kenneth Lay – 2602119272
+Review Paper: Exploring the Latest LLMs
+for Leaderboard Extraction
+Summary of the Paper:
+The paper titled ""Exploring the Latest LLMs for Leaderboard Extraction"" investigates the
+effectiveness of various state-of-the-art Large Language Models (LLMs) in extracting
+leaderboard data from research papers. The study focuses on Mistral 7B, Llama-2, GPT-
+4-Turbo, and GPT-4.o, analyzing their ability to extract (Task, Dataset, Metric, Score)
+quadruples essential for creating leaderboards that rank AI models. The authors used
+three types of contextual inputs—DocTAET, DocREC, and DocFULL—to evaluate the
+models' precision in few-shot and zero-shot scenarios. The research underscores the
+importance of selecting appropriate context to maximize model accuracy, with Mistral
+7B outperforming other models in most cases.
+Identification of Gaps
+Although the paper broadens its scope to various domains of scientific research, a gap
+exists in how the models would perform in fields with vastly different structures, such
+as humanities or social sciences. Additionally, while optimization techniques like
+instruction tuning were used, the paper does not explore in depth the impact of different
+fine-tuning strategies on performance across these non-traditional fields. Lastly, the
+evaluation metrics focus primarily on accuracy, leaving out considerations for practical
+scalability when handling papers with highly inconsistent or ambiguous formatting.
+Analysis of Ambiguities
+The methodology employed by the paper’s authors, particularly the use of three distinct
+context types (DocTAET, DocREC, and DocFULL), provided very useful insight into how
+different models handled varied inputs. However, while the methodology is well
+detailed for extraction tasks, the paper does not sufficiently explore other alternative
+evaluation metrics other than ROUGE, such as extraction-specific F1 scores. The
+inclusion of instruction tuning for optimization is a strong aspect of the study, but the
+research could have benefitted from experimenting with hybrid models combining LLMs
+and rule-based systems for a more comprehensive comparison.
+Evaluation of Methodology
+The methodology employed by the authors, particularly the use of three distinct context
+types (DocTAET, DocREC, and DocFULL), provides useful insight into how different
+models handle varied inputs. However, while the methodology is well-detailed for
+extraction tasks, the paper does not sufficiently explore alternative evaluation metrics
+beyond ROUGE, such as extraction-specific F1 scores.
+Discussion of Question Raised
+The study raises some critical questions regarding the scalability and domain specificity
+of leaderboard extraction. Specifically, how well would these LLMs perform when they
+are applied to research papers within non-technical fields with more diverse and less
+structured formats? Additionally, the question of how to manage hallucinations in
+longer contexts, such as DocFULL, remains partially unanswered. The trade-off
+between context length and extraction accuracy is an important issue that warrants
+further exploration.
+Critical Reflection
+The study has shown valuable findings on the capabilities of LLMs in leaderboard
+extraction across a broad spectrum of scientific fields. However, while optimization was
+achieved through instruction tuning, the paper could have delved deeper into how
+different fine-tuning approaches such as domain specific models could enhance the
+extraction process further. Another area for some critical reflection is the scalability of
+the methodology for tracking real-time research advancements across an ever-
+expanding body of work.
+Conclusion
+The paper successfully and wonderfully demonstrated that LLMs like Mistral 7B, Llama-
+2, GPT-4-Turbo, and GPT-4.o can automate leaderboard extraction across various
+scientific domains with high accuracy. Mistral 7B emerged as a leader in both few-shot
+and zero-shot settings, with the study showing the importance of selecting the
+appropriate context (DocTAET, DocREC) to optimize performance. The research
+highlights that LLMs, when properly optimized, are able to handle a broad range of
+disciplines.
+Future Research Proposal
+Future research could explore applying LLMs to a broader range of fields, like
+humanities or social sciences, to see how well they handle different types of research
+papers. Combining LLMs with traditional rule-based methods could also improve
+leaderboard extraction, making the process more reliable across various domains.
+Additionally, they could use other evaluation metrices to get more in-depth analysis on
+their result. Finally, tackling the issue of hallucinations, particularly with longer
+documents, would make the models more trustworthy for real-world use.
+Personal Insights
+I really enjoyed this paper and found the research approach to be quite impressive I
+must say. The way the authors used different contexts, like DocTAET and DocREC, to
+optimize leaderboard extraction was particularly clever. I also liked how they compared
+both open-source and proprietary models, giving a balanced view of their performance.
+The attention to detail and design made the results clearer and more practical. Overall,
+it’s a very well-executed study that clearly showcases the growing potential of LLMs,
+and I appreciate how thoroughly they explored the topic.",Kenneth Lay,F,
+Assignment1LiteratureReview.pdf,.pdf,49525,2024-11-29 08:14:53,"Andrew Tanuwijaya,2602158216
+Assignment1: LiteratureReview(https://doi.org/10.1155/2018/3234873)
+Section 1:Summary of thePaper
+This is aliterature review for thepaper“AMethod for Fast LeaderboardCalculations inMassive
+Online Game-Based Environments”. Online games are amassive partofso manypeople’slives.
+There are so many players in different gamesoverdifferent platforms,andinthe worldof today,
+theimportanceof a leaderboard inagame cannot beunderstated.
+Thepaperaimsto calculateleaderboard calculationsquickly inonline game-basedenvironments.
+Here, it triestocreate anefficientand scalableapproach thatimproves olderandmoretraditional
+databasemethods,especially inenvironmentswithalot ofusers.
+The authors of the paper introduce a solution, that being a Self-Balanced Order-Statistic Tree,
+and a hash table to make the calculations to properly fill up the leaderboard. The tree uses
+O(log N), which will perform much better than the traditional methods like relational databases
+2
+or linked lists. Experiments have been done, and it shows some serious speed improvements in
+larger-scalescenarios.
+Section 2:Identificationof Gaps
+The paper focuses on the more technical aspects of the leaderboard calculations, but does not
+consider at all integrating more complex game ranking metrics like multidimensional scores.
+This works when the rankings are more sequential in nature, but for aspects like social metrics
+(unlocked achievements, team collaboration), different game-mode ranks, and skill based
+rankings, thesubjectmatter needs tobelooked intofurther.
+Validation is also done based on simulations instead of live gaming services, so performance in
+actual distributed systems are not fully confirmed. For example, certainload conditionsmay not
+be able to sustain the algorithm. This system may, hypothetically, work, but there is no way to
+know for sureuntilwetest itonreal-worlddistributedsystems.
+Section 3:Analysisof Ambiguities
+Honestly, while the technical explanations are pretty good, using simple terms like “fast” and
+“cheap” implementations may be a bit lacking when talking about quantitative benchmarks.
+Having a more specific metric especially when talking about different gaming environments
+shouldhavebeenexplained.
+Additionally, asmentioned earlier, thepaperassumes theleaderboardwill beuniversallyhandled
+by a single numeric score. While many games do this, there are some that use different
+methodologies for ranking theirplayers.
+Section 4:Evaluationof Methodologies
+The authors did well in using established data structures for in-memory processing. They
+implemented a Red-Black Tree for balancing with hash tables for faster access, which is a very
+effective approach in my opinion. One big downside however is the fact that they did not
+mention the cost of maintaining such structures in a real-time distributed environment.
+Considering the fact that video game companies look for a heavy profit, especially with live
+service games,thereisno guaranteethat this implementationwill beapreferred option.
+Section 5:Discussion of Questions Raised
+Two big questions that should be raised is whether this method is really feasible in real-world
+environments beyond simulation, and the limitations when multidimensional leaderboard
+systems are introduced. These are important as to understand thegeneralizabilityand scalability
+of theapproach througheveryonline environment, andnotjust gaming.
+Section 6:CriticalReflection
+The paper is definitely extremely relevant to modern gaming systems, andgenerally anysystem
+that involves a ranking alongside a leaderboard. Focusing on scalability is essential since
+expecting the player number to increase in large-scale games is very common. The structure
+itself is very clear, and the experimental results are presented really nicely. The onlymain issue
+may be the lack of discussion on adaptability of the method to different kinds of data and their
+implementationin differentenvironments.
+Section 7:Conclusion
+Some very significant contributions are studied and handledwell heretothe fieldofleaderboard
+calculations. The scalability and efficiency of SBOSTandhash tablesarewell done.Theimpact
+it may have is pretty large for single numeric scores, though it may be a much strongerstudy if
+real-world validationandmulti-dimensionalapplicationsarelooked intofurther.
+Section 8:Future ResearchProposal
+Simply broadening the adaptability by integrating complex ranking systems would be a really
+great step. Testing the performance under variables like network conditions could also improve
+the quality of the research. The biggest upgrade would be applying this method into distributed
+systemsand real-worldgames.
+An interesting path would be collaborating with fields like education and healthcare, where
+games integrating with those sectors are becoming increasingly common. Seeinghow this paper
+couldbe appliedelsewhere isawayto broadentheimplementations.
+Section 9:Personal Insights
+All in all, this method is one good way to create a leaderboard. The scalability aspect is in line
+with my project as handling large datasets are important. Still, seeing how to accommodate
+complex ranking systems are necessary to make sure that the project works out well in theend,
+and provideacomprehensive rankingsystem.",Andrew Tanuwijaya,w,
+DeterminingPersonalEthics.pdf,.pdf,30810,2024-11-29 08:14:53,"Project Design Methods
+I’m Andrew Tanuwijaya. I like beef bowls, since they have this interesting combination between
+the rice and the beef. The flavors mix really well together, how the sauce just blends them into
+one masterpiece. Sushi is also great, for a similar reason, despite being so different. The fish is
+raw, yet it compliments the rice so well. Rice, in general, just goes with a lot of meals. That’s
+how I would like to describe myself, or at least an ideal of the perfect person I’d like to be. While
+I’m a bit more extroverted at the moment, I used to be, and I’m still a very socially anxious
+person. If someone makes friends with me and forgets the next few days, I can’t help but
+wonder whether I did something wrong or not. I don’t consider myself a nice person, but I try to
+help out whenever I can, even if I can’t. This isn’t out of kindness or anything, I just consider it a
+shame if someone can’t do their best because of one obstacle I could have helped with.
+My key principles lie in those words. Help who you can, whenever you have the ability to do it. I
+think it’s a good standard to live by. Even in moral dilemmas, to just do what one can. Lying, for
+example, to help someone is something I would consider important. A white lie is better than a
+hurtful one. The bitter truth may be a more moral option, but some people cannot handle it, thus
+a slightly modified lie to improve their situation may go a long way. This method of living is what
+I stand for, and I don’t think I would abandon it unless a desperate situation that calls for a
+change in my train of thought arises.
+These principles came from myself. Back in middle school, I used to be a selfish, arrogant jerk.
+It was that “phase”, and I wish to scrap it from my memory. I was not the best person, and as a
+result, I did a lot of things I regret. While external influences exist, the main reasoning came
+from my past actions, and how I don’t want a repeat of the results ever again.
+My beliefs do stand to my way of living up to today, ever since the tenth grade. Though, I don’t
+think I’m in a position to say that, since it’s the people around me that would think I’m following
+it, or not. Still, I hope I’ve lived up to half the perfect person I wished to become back when I
+apologized and tried to change.
+This is, in the shortest form, my standard of living.","Project Design Methods
+I",e,
+FileNamingLiteratureReview.pdf,.pdf,131290,2024-11-29 08:14:53,"Andrew Tanuwijaya,2602158216
+Literature Review ofFile NamingConventions,Habits, and Systems
+Introduction
+Naming files is something that many people have to do. Students studying innot
+only technology fields, but any field that has to do with storing information will likely have its
+students managefiles.Forexample,business studentswillhave tomanageorganizationalfiles of
+consumer data, product information, etc. Computer science students manage andstorehundreds
+of files for their programs.Evenif someoneisnot studying,this is stillvery applicableto awork
+environment. Most businesses have a certain workflow where data is stored, and employees
+access it constantlyalmost everyday.Thus,naming filesis animportant aspectofdata storage in
+general.
+Yet, despite that, there are tons upontonsof people whoareeither toolazy, ornotskilled
+enough to name their files properly. Students simply downloading files from their school's
+learning management system, oremployees downloadingthose filesfor a oneoff andbeingdone
+with it. Eitherway, this will cause mismanagement in the long run, due to the large amount of
+filesthat will eventuallyaccumulate.
+The purpose of this review is to investigate why it is important to properly name one's
+files,thedifferent typesof filenaming conventionthatexists, andwhatmorecan bedonefor this
+seemingly minor issue that causes long-run problems. Being able to gain a higher depth of
+knowledge for this specific topic will allow a better understanding into the reasoning behind
+people's minds for their file names, and give an insight on what, possibly, is the most efficient
+file naming system. So, the main question in this review is a simple one: ""What file naming
+conventions exist, and which exactly would be the most efficient by impacting the productivity
+of theuser?""
+1
+Andrew Tanuwijaya,2602158216
+Body
+This specific literature review would aim to try and gauge six different literary papers
+that cover file naming conventions and file system management, especially focusing on the
+section where they all talk about how their users name their files exactly. The choice behind
+these papers is to find a diverse group of papers that, although covering different main topics,
+relate closelyenough tothemain topic athandfor this literaryreviewspecifically.
+1. A Guideto DevelopingaFile NamingConvention [1].
+2. A File System for Information Management, or specifically, a file system that explicitly
+supports information management[2].
+3. The TILDE File Naming Scheme, which is a popular naming method among
+programmers [3].
+4. File Namingin Humanities andSocial Sciences [4].
+5. File NamingAmongPersonalComputer Usersin1999[5].
+6. Predicting theContents ofaFile through itsName [6].
+As to simplify the paper, it will be divided into three primary themes. This will help
+breakupthepaperinto moredigestible sections:
+1. TheImportance of HavingaFile NamingConvention [1,2].
+2. TheNamingof Files ontheProfession Spectrum[1, 3,4]
+3. Innovating File NamingPractices[].
+TheImportanceof Having aFileNaming Convention
+The first question to answer would be why someone would want to have a file naming
+convention. Well, simply put, having this convention would definitely help retrieve those files
+much more easily. It will reduce the amount of time you would have to search for it. Once you
+are clear, concise, andconsistentwhenit comestonaming files,it willminimize the timeittakes
+to search for thesefiles[1].
+2
+Andrew Tanuwijaya,2602158216
+The Nebula file system is a different perspective at filestructuring.Theyuse astructural
+approach rather than the traditional navigation method.It is muchlessconventional asit issuper
+uncommon by using descriptive names for the files. However, with this system, the files are
+found wayfasterand more efficiently[2].
+TheNaming of Fileson theProfessionSpectrum
+Everyone has different file naming conventions. Usually, those who label their files
+would have it named based on their needs and priorities. For example, lots of programmers use
+the TILDE method, where the files are organized in a more hierarchical structure known as the
+""forest of tree-directorytree"".This more orlessallows theuserto keeptheirpersonal viewof the
+directory tree, which reduces any conflicts of names and cross-system portability [3]. Thisway,
+fileswill remainorganized nomatter whatsystemthe programmeruses.
+On a different side of the spectrum, those studying humanities and social sciences use
+descriptive filenames with the date, subject, and project identifiers. This way, files are still
+recognizable whentheyare awayfromtheir originaldirectory[4].
+This just goes to show how differently people name their files in different fields. There
+are lots of differentpriorities whennaming fileslike how portableit is,the descriptivenessofthe
+metadata, and so on. Each field’sfile namingareoftendefined bytheirworkflow andthetype of
+data theymanage.
+Innovation in File NamingPractices
+The amazing thing is that techniques to name files and manage systems have been
+changing alongside the growing amount of data as scalability, retrieval, and organization
+becomes more and more necessary. As mentioned before, the Nebula file system is still one of
+the more innovative practices [2]. The more universal and consistent method of naming,
+3
+Andrew Tanuwijaya,2602158216
+however, often includes consistent date formats and version numbers. These are the kinds of
+simple factors that usually help maintain file organization and decrease confusion over file
+versions.
+Research was even done on people who did name their files, and it shows that their
+naming conventions areusuallyreflected bytheirpersonalization andorganization needs,though
+differing throughout a large span ofindividuals [5]. There wereso manydifferentmethods,from
+basic abbreviations to extremely descriptive names. This goes to showhow importantit iswhen
+designinga systemthat caterstoboth thesimpleand complexnamepreferences.
+A different study also showed that even the most labels people give for their files are
+often predictive of their properties and usage. It showedthat propername based informationhas
+helped enhancefilesystemperformance [6].
+Conclusion
+In simple terms to conclude this review, file naming is an important practice that will
+influence how efficiently you retrieve and organize your data for the long term. The key to
+having excellent organization is that a good structured file naming convention will make sure
+that your information stays organized, accessible, and easy to manage later on even when the
+amount of dataincreases.
+Clarity, consistency and your personal approachis important.TheGuide toDeveloping a
+File Naming Convention and the Nebula File System displayed that without a doubt.
+Programmers with the TILDE system also showed that even with less conventionalmethods,as
+long asyouunderstandwhat youaredoing,anymethod willwork.
+After examining all these literary pieces, the most crucial part of file naming is to make
+sure you understand why you chose that convention. With the digital world continuously
+4
+Andrew Tanuwijaya,2602158216
+expanding, having your own naming convention for your data willbecomeeven moreimportant
+down thelineto makesureyoustay organizedandkeep yourfiles accessible.
+References
+[1] University of Glasgow, ""A Guide to Developing a File Naming Convention,"" 2020.
+https://edshare.gla.ac.uk/807/1/File_Naming_v2_20200608.pdf
+[2] M. Bowman, et al., ""A File System for Information Management,"" 1999.
+https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=99bcfbe095b591c696809ca21
+533bcd1d5502587
+[3] D. Comer and R. E. Droms, “Thetildenaming system,”Proceedingsof the2ndworkshopon
+Makingdistributed systemswork - EW2,pp.1–4,1986.doi:10.1145/503956.503972
+[4] J. W. Crowder, J. S. Marion, and M. Reilly, “File naming in Digital Media Research:
+Examples from the Humanities and Social Sciences,” Journal of Librarianship and Scholarly
+Communication,vol. 3,no.3,Dec. 2015.doi:10.7710/2162-3309.1260
+[5] H. Chapman, The file naming habits of personal computer users, Mar. 1999.
+doi:https://doi.org/10.17615/z4xq-2188
+[6] Ellard, Daniel, J. Ledlie, and M. Seltzer. 2003. “The Utility of File Names.” Harvard
+Computer ScienceGroupTechnical ReportTR-05-03.
+5
+Andrew Tanuwijaya,2602158216
+6",Andrew Tanuwijaya,A,
+HowAIFailedtheCreativeIndustry.pdf,.pdf,2695451,2024-11-29 08:14:53,"BINUS INTERNATIONAL
+ENGLISH LANGUAGESERVICES
+The degradation of artistic expression:
+How AI has failed the creative industry.
+Submitted by:
+Andrew Tanuwijaya
+2602158216
+17/12/2023
+Submitted to:
+Tb. NugrahaAdiPratama, S.T.,M.Pd
+i
+ABSTRACT
+TheDegradation ofArtificial Intelligence:
+How AIhas failedthe creativeindustry.
+by
+Andrew Tanuwijaya
+Artificial Intelligenceused tobeasimple, futuristicsci-ficonceptonewouldsee infilms.
+The machines that could think for themselves, and take over the world. Back in the 1990s,
+everyone used to point and laugh at how ridiculous and seemingly impossible the concept was.
+Then, as time went by, technology started to advance, and assumptions were made. Automated
+jobslike longdistancetruckers,fastfood drivethrough workers,andother“simplistic” jobswere
+going to be replaced, while jobs that required a human soul with creative thinking such as
+creative arts, music, and acting were safe. Yet, as we near the end of 2023, major protests were
+held for those specific sections due to controversy with the industry replacing these jobs with
+artificial intelligence. SAG-AFTRA, the largest actor’s union, held an industry wide strike for
+writers and actors alike lasting around for 118 days before a resolution was met. Meanwhile,
+online discourse for artificially generated art hasbeen goingonfor morethanjust afew months.
+With all this in mind, it becomes essential to figureoutwhy this disputehasoccured. Thisstudy
+is written in order to highlight both sides of the argument, with the extensive research and
+knowledge the author has doneandpossesses. Thestudyalso exhibitsthe dangerthis technology
+possesses to all creative arts creators including but not limited to artists,authors,writers, actors,
+and musicians.Using surveyresults andonline transcripts, thetrueimplications for thefuture are
+also revealed as the degradation of creativity within humans, and inevitably artificial
+intelligence, occurs.With all thisin mind,the usageof artificialintelligenceincreativeindustries
+especially can be incredibly harmful towardshuman creativity,withartisticminds being thefirst
+on the frontlines. Solutions are required, which is why this study aimstoprovideanswers tothe
+difficult and ethicallymurky question:“Isit alrighttouse AIincreativeindustries?”
+Keywords: Artificial Intelligence, AIArt, AIinCreativeIndustries
+ii
+Table ofContents
+Title Page….………………………………………………………………………………………i
+ABSTRACT………………………………………………………………………...……………ii
+Table of Contents……………...………………………………………………………………...iii
+Listof Figures…………………………………………………………………………………....iv
+Glossary…………………………………………………………………………………………..v
+Methodology……………………………………………………………………………………..iv
+Chapters
+1. Introduction………………………………………………………………………………1
+2. Methodology……………………………………………………………………………...2
+3. Discussion………………………………………………………………………………...3
+3.1: TheRiseof AITechnology………………………………………………………….3
+3.2: TheSupposed“Golden” AgeofAI………………………………………………...4
+3.3: TheBeginning ofthe End forCreativeArts……………….……………………...5
+3.3.1: What isAIArt?……………………………….…………………………...5
+3.3.2: An Uncertain Solution…………………….………………………………7
+3.4: Corporations,Industrialization, and Normalization……………………………..8
+3.4.1: The118-Day Strike………………………………………………………..8
+3.4.2: An InevitableIndustrialization………………………………………….9
+3.4.3: Normalizing AIArtthrough Social Media…………….……………….12
+3.4.4: TheDivision ofPeople……………………………………………..…….13
+3.5: A PossibleDegradation…………………………………………….………..…….14
+4. Conclusion and Recommendations………………………………….………..……….16
+References………………………………………………………….………….………..……….17
+Appendice………………………………………………………….………….………..……….19
+iii
+List ofFigures
+1. Figure1: Have you personally encounteredsituations where AI-generatedcontenthas
+beenindistinguishablefromhuman-created content?..........................................................1
+2. Figure2: What kind ofAIdoyouuse?..............................................................................4
+3. Figure3: Have you noticedanyinstances ofAI-generated contentbeingused without
+proper credittothe originalhuman creators?......................................................................5
+4. Figure4: What regulationsdoyouthink shouldbe putinplacetomanagethis new
+technology?..........................................................................................................................6
+5. Figure5: A poston X/Twitterfromthe officialPizza Hutaccount@pizzahut[11]..........9
+6. Figure6: A Google Imagesearchfor “anime boyguitar”................................................12
+iv
+Glossary
+Word Definition
+An animation techniquewhereareal lifevideois
+Rotoscope filmed, and then the artist tracesover everysingle
+secondof thevideo.
+Degradation Theprocessof adecrease in quality,orits
+deterioration.
+Apersonwho live-streamsan activity,suchas playing
+Streamer videogames,cooking, orinteracting withtheir
+audience.
+Aperson who uploadsvideosto YouTube,orstreams
+YouTuber on that platform.A content creatorfor theYouTube
+platform.
+Deepfake An imageorvideo of someone digitallyalteredto
+make it seemlike they did somethingthey didnot.
+v
+Methodology
+In order to do this research, a survey was handed out through online platformsof theresearcher
+such as Instagram, Twitter/X, and Whatsapp. A Google Forms was made, and the data was
+collected anonymouslytoensuretruthful results, nomatter howhurtful.
+Unfortunately, due to only having one person, conducting a full scale offline research would be
+futile, so theresultswere all fromtheonline form.
+The first part of the survey asks the user what AI they often use, if any at all. This allows for a
+much better understanding of what kinds of AI the respondents arefamiliar with.Then,theuser
+is asked what creative industry they frequent in,if anyat all onceagain. Weareable tograspthe
+perspective of someone who is working/studying in those industries and can potentially be
+impactedbyit.
+From there onout,questionsabout whetherAIcould replicatehumans, whetheritcould generate
+soulful content,andsimilarly structuredYes/Noquestionswere asked.
+Lastly werethree open-endedquestionsto gainabetter insightofthe audience’s opinion,as there
+is only so much a researcher can understand if the respondents only answer yes/no and scales
+between oneto five.
+The first question asked the impact of AI on creative industries from the respondent’s
+perspective, asthatisthemainpoint ofthe research.
+The second question is the respondent’s opinion on regulation changes to control AI within the
+creativeindustriesto graspan ideaof whatpossiblesolutions thegeneral populacethinks.
+The last question is what a path for artists and AI to somehow collaborate would looklike, or a
+waythat bothparties canbenefit asthat wouldbea beneficialoutcome.
+vi
+1. Introduction
+“Acomputer woulddeservetobe called‘intelligent’ if itcould deceiveahuman
+into believing it was human.”Alan Turing,onewho many considerthe ""Grandfatherof
+Artificial Intelligence”,proposedthis statementalongsidea quickexperiment.It was
+called the“ImitationGame”, where onepersonengagesinconversationwithtwo
+subjects,a humanand amachine.Thisperson,otherwise known asthe ‘judge’,then has
+to figure outwhetherthe subjecttheyconversed withwasa humanor machine.If the
+judgeisunable todifferentiatethe twoordoes soincorrectly,then themachine would
+win.
+Whileexperts arguethat this isa testofthe machine’sability tomimichumans
+instead of itsintelligence, itis thefirst evertestof artificialintelligenceandoneof the
+most famousmethodsof doingso.Theissuewiththis testis that,with recent
+advancementsin AI, resultsmay beinaccuratebecause humansarebiasedto bemore
+understanding towards otherhumans. Onthe otherendof thespectrum, for thesame
+argument, somesay theexam isbiasedtowardsmachines asthey areable tooutperform
+humans intasksthat require alotof thinking forward,such aschessandtic tac toe.
+So onemay becuriouswhy theTuring Imitation Gameis beingbrought upwhen
+thetask athandismore closelyrelated tothecreativearts thanconversation.Well,
+accordingto multiplestudies done,includingasurveyfor this specificpaper,a large
+majority of peopleareunable totellthe differencebetween AIandhuman-made art.
+Figure1: Haveyou personally encounteredsituations whereAI-generatedcontent
+hasbeenindistinguishable from human-created content?
+1
+Outof the32respondents, around 68.8%,whichequates toabout22people, were
+unable totellthedifferencebetween contentgenerated byartificialintelligenceand
+humans. Thisisan incredibly concerningstatisticto haveas weenteranage of
+artificially generatedcontent.Thisstudy aimstofind outwhy this issoand whatcanbe
+done aboutit.
+Based onthe researchdone,not alotof studiesarebeing doneinthis sectordue
+to itsnewnature and howdifficult it isto tacklethesesortsof issues,especiallywithAI
+beinghailedasa revolutionary breakthroughwith nothoughtsof concernsabout its
+drawbacks. Regardless, onestudy wasfound.A researcharticlewas madefrom
+conference proceedingsat theConference ofAI,Ethics, andSociety (AIES). Themain
+gap wouldbethelack ofonline discussions beingbrought up,as thatis amajorfactor in
+what thisdiscourse wouldbe.
+2. Methodology
+In order to do this research, a survey was handed out through online platforms
+such as Instagram, Twitter/X, and Whatsapp. A Google Forms was made, and the data
+was collectedanonymouslytoensure truthfulresults, nomatter how hurtful.
+Unfortunately, due to only having one person, conducting a full-scale offline research
+wouldbe futile, sothe resultswere all fromthe onlineform.
+The first part of the survey asks theuserwhatAI theyoftenuse, ifany atall. Thisallows
+for a much better understanding of what kinds of AI the respondents are familiar with.
+Then, the user is asked what creative industry they frequent, ifany atall, onceagain. We
+are able to grasp the perspective of someone who is working or studying in those
+industriesand canpotentially beimpactedbyit.
+From there on out, questions about whether AI could replicate humans, whether itcould
+generate soulfulcontent,andsimilarly structuredYes/Noquestionswere asked.
+2
+Lastly, there were three open-ended questions to gain a better insight intothe audience’s
+opinion, as there is only so much a researcher can understand if the respondents only
+answeryesor noandscale fromonetofive.
+The first question asked about the impact of AI on creative industries from the
+respondent’sperspective,as that isthe mainpoint ofthe research.
+The second question is the respondent’s opinion on regulation changes to control AI
+within the creative industries to grasp an idea of what possible solutions the general
+populacethinks.
+The last question is what a path for artists and AI to somehow collaborate would look
+like, or awaythat both partiescan benefit,as that wouldbeabeneficialoutcome.
+3. Discussion
+3.1TheRiseof AI Technology
+Artificial Intelligenceis aconcepteveryoneshould befamiliarwith. Asperthe
+layman’sdefinition,AI issimplyarobot that canthink for itself. Whilethatmay be
+correct,it doesnotnecessarily paint thefull picture. Well,AlanTuringonce proposed
+that tolearn, humansgathered informationandprocessed it.“Why would therebea
+reason todoubt robots couldreplicate that?”Unfortunately, computationwascostlyand
+ineffective,asthey couldonlydowhat theywere told,not rememberwhatthey did[1].
+Eventually, technologyprogressed,andthe verypossibility of AIbecamemore
+and morefeasibleas timewentby. However,evenin the2010s,the implicationsof this
+dangerwere notevident.AIwas onlytaken seriouslyin thecirclesthat developeditand
+studiedit gratuitously.
+AI, previously thoughtto besimpleandstraightforward, startedto evolve.While
+manythought it was purelydeductive,the contraststarted toshow. It couldrecall
+3
+previous problems andadapt based onthosesituations, compare currentproblems with
+what it haslearned, andmake its ownreasoning withincomplete ormissing information
+[2].
+3.2: TheSupposed“Golden” AgeofAI
+This eracamearound 2015-2020 whenartificialintelligencebegancreeping up
+onthegeneralpublic. Notmanystill understoodthegravity ofthe situation,as itwas
+becomingusedfor basic,primarytaskssuch asanswering simplequestions,andsilly
+applications.
+Theseyears were alsothe timewhenvideo-sharingplatformssuch asYouTube
+and Vinewerebeginningto explodein popularity.ForYouTube specifically,the typeof
+contentgettinga lot ofexposure wasvideogame channels.A singlepersonor agroupof
+friends playingvideogames,recording content,anduploading itto theplatform wasa
+populartrendback then[3]. These peopleuploading andstreamingvideos were called
+streamers andYouTubers,depending onthe platform asYouTube wasbothavideo
+hosting anda streamingplatform. Twitch, ontheotherhand, isexclusively astreaming
+platform where people sendalive video feedofthem doingsome activitylike exercise,
+playing games,or interacting withtheiraudience.Onepopular activity wasthe useof
+“EvieBot”,an artificiallyintelligent‘chatbot’, whichmany people usedtotalk toand
+havefun with.
+Evie Botis consideredartificialintelligence, asshe takestheuser’s inputand
+gives herown output. Additionally,shehas a3D model withafacethat changesreactions
+depending onwhatthe userhassaid andwhatshe replies with.Shefallsunder the
+“NaturalLanguageProcessing” sectionof AI,apartthat allows artificialintelligenceto
+connectsentences, understandthem, andreturn theirown reply.
+Artificial Intelligencewasalso used discreetlyinothersectors, suchas
+cybersecurity totesttheirstrength, translationas theycould potentiallybridgethe gapof
+contextualunderstandingthat interrupteddirect translationbetween languages,andvideo
+gamesto allowenemiesto understandplayermovements for animmersiveexperience.
+4
+3.3: TheBeginning ofthe End forCreativeArts
+Everything changed whentheCOVID pandemicbegansweeping the globe.
+Hundreds of millions ofpeople were forcedto stayhome inorderto savethemselves
+from thecoronavirus. Meanwhile,those ontheinternet ‘discovered’ ChatGPT,another
+artificially intelligentchatbot.This one,however,wasdifferent. ChatGPThadthe
+knowledgeof theinternetupto September2019,soit wasessentiallyGoogle thatyou
+couldspeak to.It could act asaspecificrolein ordertoteachsomething,troubleshoot
+technical problems,or evengive theuserrecipes, according totheirsite[4]. Thisled to
+an influx of people usingit asadaily assistantmanager [5]. Eventheconductedsurvey
+had atotalof 24people usingGPT.
+Figure2: Whatkind ofAIdo you use?
+3.3.1: What isAIArt?
+BeforeGPTand AIbecamemainstream, artificiallygenerated artwas
+alreadyslowlycreeping up.Backin2017,apieceof artsoldfor around $432,500
+[6]. It wasgenerated artificiallyandsold nextto piecesmade byAndyWarhol and
+RoyLichenstein.Discourse beganbyquestioningif it wasevenart,as itwas
+5
+generated by inputting manydifferent historicalpiecesof artandessentially
+mushing them together.
+Modernart,made byartiststoday,is automaticallyprotected bycopyright.
+Toquoteinternationalcopyrightlaws, “Asthe copyrightownerof artwork,you
+havetheright tomake andsellcopiesof it; makenewworks fromit; anddisplay
+it publicly,includingonthe internet. Andif youwantto usesomeoneelse’s
+artwork inthese ways,youmust getpermissionfromthe copyrightowner.
+Copyright protectionbegins the momentaworkis createdin afixed form;
+registration withthe U.S.Copyright Officeisnot required”[7]. Theverysecond
+thework ismade, the art isimmediatelycopyrighted, withit belongingto the
+artist. Despite that, theseworksarebeing usedwithout consentorattribution.
+Figure3: Haveyou noticed any instancesofAI-generated content being used
+withoutpropercredit to theoriginal human creators?
+Thiskind oftheftis demotivating artists,bothnewandold,from pursuing
+this careerduetothe uncertaintyofthe futurein theirline ofwork.There is no
+point in becoming anartist if yourworkwill betaken withoutconsentand fed
+into a machine,rendering yourjob obsolete.
+Thepossiblyworst partofthis situation isresolution, asstolenartcannot
+be “returned”. Whenthe artisfed intothe algorithm, themachinelearns fromit
+and will notforget.It is, afterall, perfectinmemory,and oncethose worksarein
+6
+thesystem, thereis nowayfor thedeveloper to“takeitout” withoutresettingthe
+machine completely.
+3.3.2: An Uncertain Solution
+In thesurvey, anopen-endedquestionwas includedwithasimplequery:
+“Whatregulationsdoyouthink shouldbeput inplacetomanagethis new
+technology?” essentiallyasking for asolution.A newlaw,regulation,or solution
+that would enforce andprotectartists.Yet,not asingledefinitive answerwas
+provided.Consensual regulation, beingtransparent whenAIisused, orvague
+answers weregiven. Thisisbecause thereisnostraight solutionwhentackling
+this issue.
+Asmentionedbefore, lawswere already putinplacethat protected awork
+thesecondit isconceived. Yet,thathas notstopped developers fromstealing
+other’swork toinput intotheirsystem. Evenifpeople started obeyingthose rights
+all of asudden,the issuewithexistingalgorithmsthat havestolenworks remain.
+Thequestionis notevenwhethera governmentbodyor organizationshould force
+them todeleteit, butwhetherthey candosoor not.Backupscan bemade, andthe
+cyclewouldcontinueendlessly.
+Figure4: What regulations do youthink should beput in place tomanage
+this newtechnology?
+7
+In theend,the solutionsprovidedbythe generalpublic dependonthe
+morality ofthe developers committingthesedeeds.
+3.4: Corporations,Industrialization, and Normalization
+Despitethe onlinediscourse, controversy, andprotests, nomajoradvancement
+was madeto protect digitalartists.Thewar wentoncontinuouslyfor anotherfew months,
+which iswhenanothermajorevent occurred. Thistime,industriesrealizedthe potential
+of artificialintelligence andseizedthe opportunitytomake moremoney.
+3.4.1: The118-Day Strike
+Withnewly developedtechnology,studiosrealizedthey couldsave an
+amazing amountof moneybypaying extrabackgroundactorsfor a singledayof
+work byscanningthem, saving that data,and keepingthose 3D modelsofactors
+for future use.Studios thenreworkedcontractsto havethis clause,saving them
+some funds for films.Actors,of course,were nothappywiththis arrangement.
+Studios arealreadyinfamous for themistreatmentof actorsandwriters,
+from poor workconditionsto unfaircompensation andimpossible goals to
+achieve ina miniscule amountof time.Now,withthe proposedchanges,actors
+wouldbe paid for asingledayof workfor alifetime ofactingopportunities.The
+studio would nolongerhaveto payactors,as theycould just usetheir3D models
+forever.As aresult, onJuly14,2023,actors wentonstrikealongside writers,who
+had already beenstriking over theusage ofartificialintelligence.
+Despitethe longstrike,some CEOswere notrelenting whatsoever.Bob
+Iger,theCEOof Disney,said, “There’sa levelofexpectationsthey have,and
+that’s notrealistic.”despite livingin aluxury mansion,riding aprivatejet, and
+constantlywearing designerclothing.Thefactthat hemakes400times morethan
+thelowest-paidworkersignals thesalary differenceinthe entertainment industry
+[8].
+8
+In thisstrike, studioshavealso previously commentedthat theyplanned
+on“waitingoutthe strike”, hopingthat theunionmembers wouldlose their
+houses andhomes, callingit a“cruelbut necessaryevil”.Thoughthe AMPTP
+maybe denyingit, aresolution wasnotfound until afterthe actorsjoined the
+strikeaswell [9]. Atlonglast,however,abetter deal wasstruckafter 118daysof
+striking.
+3.4.2: TheInevitableIndustrialization
+Despiteall theattempts tohighlight the dangersof AI,its usagefor
+potentially harmful purposeshasnot decreasedatall. AIis stillbeingused for
+dangerous activities, harmingalot ofpeople inthe process.
+Forexample, oneunfortunatelypopularmeansof useis “deepfake
+pornography”, inwhichthe userwouldinputanimageof apersonclothed,and
+theAI would returnan imageofthem fully nude.A Twitchstreamer called
+“Atrioc”was caught withdeepfakeimages ofhis fellowstreamers,which greatly
+disappointed andsaddenedthecommunity.Whilehe istrying tomake upfor it by
+combating deep fakes,the factthat apopular streamerdid itremains [10]. If he
+did it, thereis anunspeakablenumber of normalpeople who havealso doneit.
+Twitch streamersarenot theonlyones guilty ofusing AItosatisfy their
+own greed, prioritizingthemselvesover the safetyandwellbeingof otherpeople.
+Of course,massivecorporationsoutsidethe entertainment industryhavealso
+found ways to‘useit’.
+Pizza Hut,for example,is speculatedto haveused AIartfor an
+advertisement ontheirsocialmedia.Discourse hasgone around,as itis highly
+likelyto be generatedbyartificialintelligence. Allthesigns inthe imagehaving
+distorted text, windowsonthebuilding notbeing linear,theinconsistentlength of
+linesfor the bikingpath pointtothe factthat this imageislikelyartificially
+generated.
+9
+Figure 5: A post on X/Twitter from theofficial Pizza Hutaccount @pizzahut
+[11].
+Around the beginning of the year, a YouTube channel called “Corridor”
+released a video called “ANIME ROCK, PAPER, SCISSORS” in which they
+enacted a scenario of overexaggerated movements while playing rock, paper,
+scissors. They then rotoscope the video and animate it using AI instead of a
+human artist. The main issue with using AI for this is that they simply stole
+copyrighted work by training the model using the anime “Vampire Hunter D:
+Bloodlust” sothat theirvideo wouldendupinthe styleofthe anime[12].
+Although the animation is subjectively terrible and poor in quality, this
+does raise concerns over the ethical implications of when the technology is
+improved, because at this point in time, it is not a matter of possibility but a
+matter of time. The question would be how,if atall, wouldartistsbeprotected. If
+someone previously worked as an animator, there would be no one to stop
+corporations from training a model on your work whenever this technology is
+improved. However, if concerns were not high enough, yet another major issue
+dropped around December2023.
+10
+A trailer for a short feature film was released on the Twitter/X accountof
+@zombi_friends that depicted a horror/zombie animated movie. However, the
+main cause for concern and controversy was the fact that every aspect of
+animation was done with motion capture and AI [13]. The fact that this was all
+done by AI is a cause for concern. Just like with Corridor’s video, the general
+consensus was that it looked poor in quality, but just like before, this signals a
+signof thetimes, asfilms made byAIarebeingreleasedinto cinemas.
+The film seems like an insult to animators, as they are incredibly
+overworked and underpaid by studios, and to release a film where they were
+replaced seems like more salt in the wound [14]. Poor working conditions have
+continuously plagued the industry,especiallyinJapan. Largestudioslike MAPPA
+have their employees complaining about their situation, especially with the
+currently airing anime Jujutsu Kaisen releasing an objectively unfinished episode
+[15].
+However, American animators are also struggling with projects such as
+Spiderman: Across the Spiderverse. It seemed that the writer and producer ofthe
+film changed up aspects of the film midway, causing a delay in work [16]. The
+animator deadlines, however, wereunchanged, andso theyhadto excessivelyand
+tirelessly work to meetsaid deadlines,according tofour anonymous animators.In
+additiontothis, qualitycheckswere also done,andeach stagehadtobe approved.
+This excessive and poor working condition is why animators are already
+struggling in theindustry.Theconstant changein plans,shortdeadlines, andlarge
+expectations to create great art is always prevalent in these sectors.However,the
+introduction of AI wouldessentiallystripawaywhat littleartistswere making. AI
+should have been used by artists in order toincreasethequalityof theirworkand
+improve the workflow.If it were usedas atoolto helpartists,wemight havebeen
+led to a differentfuture. Unfortunately, thestatusquois havingAI modelsreplace
+artists instead. A new type oftechnologyis beingbrought up,a“protectivelayer”
+that artists can place over their digital art, which works momentarily but will
+ultimatelybecomeuseless oncepeople figureout howto removeit.
+11
+A question could be brought up, such as“Sowhat ifartistsall quit andAI
+replaces them? After all, they are overworked. We might as well, since we areat
+this stage.” That very question is the reason for this research and will be a major
+talkingpoint lateroninthis paper.
+3.4.3Normalization Through SocialMedia
+To highlight the further normalization of content theft and algorithm
+feeding, TikTok, an incredibly popular short video sharing site, allowed for the
+creation of “AI filters”, which were essentially themed under certain “prompts”
+for the AI to generate. Wizard filters would use promptslike “magic,cool,mana,
+spells, hat”, and more of the sort. The filter would then return an artificially
+generated image based on the image the person took and provided. These
+generated pieces do not mention what data the model was trained on, much less
+theartistswhose workswere taken inorderto createthe model.
+TikTok’s own website even suggests using Midjourney or Dall-E, two
+sites that are infamous for the non-consensual usage of artists’ worktotrain their
+data [17]. The creatorofMidjourney hasopenly admittedin aForbes interviewto
+using hundreds of millions of images and data scraped from the internet without
+the consent of artists [18]. The normalization of this practice isnot onlyscummy
+but alsoconcerning for thefuture ofhuman creativity.
+This kind of normalcy is recurring more to the point where even Google
+returns AI art despite the user not specifying for it. To testthis theory, thesurvey
+had its respondents google“anime art[topic]”,wherethe wordtopic wasreplaced
+with a subject of their choosing such as piano, guitar, and so on. For example, a
+searchof “animeboyguitar” returned thefollowing results:
+12
+Figure6: AGoogle Imagesearchfor “anime boyguitar”
+It isclear that outofeight results, seven areartificiallygenerated. Thefirst
+five images are all distorted in the eyes or hands, which makes it obvious that it
+was made by AI. The sixth is real art, while the last two also have distortions. It
+becomes clear how concerning the situation is, asasimple Googlesearchalready
+gives thismuchartificiallygenerated art.
+3.4.4: TheDivision ofPeople
+Another reason resolution cannot be found easily is due to thedivisionof
+people regarding their opinions on the matter. One side views the situation with
+jaded eyes and believes anything to do with technology andartificial intelligence
+will become the future. On the other hand, there are people concerned about the
+well-being of others and what it could mean for the future if the status quo
+continues.
+A lotof themajor argumentsoccuronline, asthat is theplatform onwhich
+AI art is often distributed as well. Some people label their work as artificially
+13
+generated, which is the right step, but there are some who want no change tothe
+regulationsinregards tothe situation.
+One user against artists posted acomicabout someonesaying AIartisnot
+human-made, but machine-made. That personwithinthe comicthenproceeded to
+take a photo of a ladybug using acamera. Thepoint ofthe comicwastocompare
+the generation of AI art and the skillofphotographyand highlight itssimilarities.
+However, one person responded, “Being a photographer takes skill. AI art
+doesn’t. And also, I don’t know how to tell you this, but the subjects of a
+photograph exist materially” [18]. Thepointthey bring upwouldbemorecorrect,
+as photography requires the user tomanually adjustlighting, getperfecttiming of
+the subject, and more factors that they have to try to control. AI art, on theother
+hand, simply requires the user to throw words at amachinetrained onstolendata
+to output acombination ofstolendata formattedtothe wordsthe userinputted.
+This divide is inevitable, and a resolution for it will notlikely befound in
+the near future. Convincing someone of something when they are convinced
+otherwise is not a task that is done easily. Unfortunately, this dispute ultimately
+factorsinto thenormalization ofartificialintelligencein theartisticindustry.
+3.5: A PossibleDegradation
+So maybe someone in the world, somewhere, is thinking about one of
+these: “Well, what if we just embrace this change? Throw artists in the dirt and
+continue down this rabbit hole of artificially generated content.” “Who needs
+animators anyway? If they’re so overworked, then just replace them with AI. At
+least they won’t have terrible working conditions anymore.” “Why bother
+learning art? AI art is much easier, and it’s practically the same thing as doing it
+manually, just faster.” If you, as a reader who has read this entire paper,disagree
+with all of these sentiments, then that is some relieving news. However, if there
+are still any doubts about any one of these statements, this section willhopefully
+clearthoseup.
+14
+Considering the status quo, artists are already afraid of their work being
+stolen. Picking up a job that involves art is becoming less incentivizing by the
+day, and new artists are less willing to learn out of fear of their skills becoming
+obsolete. Working artists arealready barelypaid anything,and withthis direction,
+theymaybelosing theirjobs over this.
+Displacement in the industry is becoming a more real problemwith each
+passing day. However, the hypothetical would be asking what exactly happens to
+the creative industry as artists leave the market. Saying all artists simply give up
+starting at the beginning of 2024 wouldleavethe internetwith artuntilthe endof
+2023.
+In this hypothetical situation, thereisnowayfor artas acreativeoutput to
+grow because, objectively, the model is only as good as the data it is fed. The
+recent most content-generating artificial intelligence models are eerily good
+because behind those are art pieces people put their effort, time, and love into.
+Once artists ‘give up’ on the industry and all that is left is AI with old images,
+there is no way for AIto‘innovate’.It is stillincapableof doingso,as thelimit is
+the data provided. Humans, however, have the immense luxury of the limit for
+whatever they create, beingtheirimaginations.A popularmethodologyfor testing
+algorithms is to go maximum positive and minimum negative, going out of the
+scope of possibility for the machines to see their limit. When asked to
+continuously depict someone getting angrier and angrier, the AI gives up after a
+handfulof tries.Humans, however,cankeep goingonandon.
+Eventually, a future where all art, animation, and creative work is
+exclusively done by AI would mean newer, fresher, and more creative ideas
+would no longer be possible anymore. Even if humans wanted to create
+something incredible beyond the imagination of AI, with artists giving up their
+skills, no one could conceptualize that exact thought. AI will not be able to
+replicate something regardless of the prompt created. That is because art, no
+matter what form it takes whether it be traditional, digital, music, acting, or any
+other form, is askillcultivated andtrained overtime.Practice andperseverance is
+15
+what makes humans human. Artistic expression, as humanity knows it, would
+eventuallycease toexist.
+If AI has the ability to perfectly mimic humans in terms of thoughts, and
+conceptualize their own thoughts, we return to the Turing Imitation Game. One
+judge, one human subject, and the machine subject. The judge speaks to both
+subjects one at a time, without being told which is which. If the judge can
+accurately decide which subject is the computer, then the human wins. If not,the
+computer wins. The method was scrutinized due to its nature of testing for
+copying human thoughts instead of its actual intelligence. However, if AI gains
+this capability to truly think for itself, then the judge will receive a 50/50 game
+instead of a guessing game as AI perfects itself. At this point, the AI had won a
+long, longtime ago.
+4. Conclusions and Recommendations
+So, the problems and their probable solutions are finally made clear. Artists are
+being underappreciated in the current industry, and with the introduction of artificially
+generated content, this mistreatment is here to stay. AI is not coming because it has
+already arrived and planted itself firmly a long, long time ago. Regulations on it are
+sketchyand dodgybecause regulatingit isdifficult.
+With AI becoming even more prevalent and exposed to the middle-aged
+population, there is no stopping it, as the storm is here. The best conclusionwasalready
+touched up upon: artists using AI to help enhance their work instead of replacing them
+completely.
+This research is not perfect, as a better method would be to have a largersample
+size.
+However, there is no definite way to turn back the clock. Pandora’s Jar has
+already been opened. The current AI systems are trained on unethically obtained stolen
+data, and there is no possible chance of undoing it without resetting the systems, which
+most, if not all, developerswill refuse todo.Theprotectivelayeris aneffectiveexample,
+16
+albeit temporary. In the end, the weight of these industries depends on the advancement
+of technology,whodevelopsit, andourability toreactcorrectly tothesechanges.
+References
+[1] Anyoha,R.(2017, August28). TheHistoryofArticle Intelligence.SPECIAL EDITION ON
+ARTIFICIAL INTELLIGENCE. December17,2023,
+https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/
+[2] Buchanan, B.G.(2005). A(Very) BriefHistoryof ArtificialIntelligence. AIMagazine,
+26(4), 53.https://doi.org/10.1609/aimag.v26i4.1848
+[3] RuizSegarra,A (2018).A Data-Driven AnalysisofVideo GameCulture andthe Roleof
+Let’s PlaysinYoutube.ElectronicThesis andDissertation Repository.5934.
+https://ir.lib.uwo.ca/etd/5934
+[4] Chatgpt.ChatGPT.(n.d.).https://openai.com/chatgpt
+[5] Wu, T.,He,S., Liu, J., Sun,S., Liu, K., Han,Q.-L., &Tang,Y. (n.d.). A briefoverviewof
+CHATGPT: Thehistory,statusquoandpotential futuredevelopment.IEEE/CAA Journalof
+AutomaticaSinica. https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2023.123618
+[6] Cohn,G. (2018, October 25).AI art atchristie’s sellsfor $432,500.TheNewYorkTimes.
+[7] Visualart.(2019, August).https://www.copyright.gov/engage/docs/visual_art.pdf
+[8] Buckley,T. (2023, October10). Disney CEOBobIgerstruggles amidactorsstrike,
+streamingTV woes.Bloomberg.com.
+https://www.bloomberg.com/news/newsletters/2023-10-10/disney-ceo-bob-iger-struggles-amid-a
+ctors-strike-streaming-tv-woes
+[9] Patten, D.(2023, July12). HollywoodStudios’WGA strike endgameis tolet writersgobroke
+beforeresuming talksinfall.Deadline.
+https://deadline.com/2023/07/writers-strike-hollywood-studios-deal-fight-wga-actors-123543433
+5/
+[10] Mercante,A. (2023, March 16).Twitchstreamercaught withdeepfakepornof friends
+returns, wantstohelp[updated].Kotaku.
+https://kotaku.com/atrioc-twitch-deepfake-porn-apology-dmca-ai-takedown-1850229681
+17
+[11] pizzahut. (2023, Dec8). ontheroad to#gagcitytomorrow(emoji)
+https://pbs.twimg.com/media/GAxLwdBWEAAKyU4?format=jpg&name=medium [Twitter
+post].Retrieved fromhttps://twitter.com/pizzahut/status/1732843253974679757
+[12] Edmundson, C.(2023,March 2).AnimeRock,paper, scissors video highlightsA.I.Art
+Controversy.ScreenRant.https://screenrant.com/anime-rock-paper-scissors-ai-art-controversy/
+[13] Catsuka(2023, Dec 10). 1stugly trailerof“Who SaidDeath WasBeautiful?”, ajapanese
+aniamtedfeaturefilm coming intheatresonDecember22.It’s usingmotion captureand AI…
+#Playstation1[VideoAttached][Tweet]. Retrievedfrom
+https://twitter.com/catsuka/status/1733867135301013518
+[14] Okeda, D.,& Koike,A.(2011). Working conditions ofanimators:Thereal faceofthe
+Japaneseanimationindustry.CreativeIndustriesJournal,3(3), 261–271.
+https://doi.org/10.1386/cij.3.3.261_1
+[15] Srivastava, T.(2023, November18). JujutsuKaisenseason 2releasesanunfinished
+episode.Dexerto.
+https://www.dexerto.com/anime/jujutsu-kaisen-animator-confirms-releasing-unfinished-episode-
+2388942/
+[16] Iovine,A. (2023, June 25).“across the spider-verse”animators allegeharshworking
+conditions duringproduction.Mashable.
+https://mashable.com/article/spider-man-across-the-spider-verse-working-conditions
+[17] Using generativeAI to createtiktokeffects:Learn: Tiktok effecthouse.Learn| TikTok
+Effect House.(n.d.).
+https://effecthouse.tiktok.com/learn/guides/general/using-generative-ai-to-create-tiktok-effects
+[18] Salkowitz, R.(2023, October 5).Midjourney founder DavidHolzonthe impactof AIonart,
+Imagination andthecreativeeconomy.Forbes.
+https://www.forbes.com/sites/robsalkowitz/2022/09/16/midjourney-founder-david-holz-on-the-i
+mpact-of-ai-on-art-imagination-and-the-creative-economy/?sh=e37ab442d2b8
+[19] AGramugila (2023, December16) Beingaphotographer takesskill.AIartdoesn’t.And
+also, I don’tknowhow to tellyouthis,but thesubjects ofaphotographexistmaterially. [Tweet].
+Received fromhttps://twitter.com/AGramuglia/status/1736039885964800087
+18
+Appendices
+AppendixA. GoogleSearch for
+“Anime ArtGirl”(Survey)
+AppendixB. GoogleSearch for“Anime ArtKawaii
+Girl”(Survey)
+19
+Appendix C.GoogleSurveyQuestions
+Certainly! Here'saneatlyformatted versionofyour questionnairefor documentation:
+---
+**1.What kindof AIdoyouuse?:**
+- [ ] ChatGPT
+- [ ] BingAI
+- [ ] Dall-E
+- [ ] Grok (Twitter/X AI)
+- [ ] None
+- [ ] Other… (pleasespecify)
+**2.What industries areyouinvolved/interestedin?**
+- [ ] Art
+- [ ] Music
+- [ ] Writing
+- [ ] Video/Photo Editing
+- [ ] None
+- [ ] Other… (pleasespecify)
+**3.Howfamiliar areyouwithAI increativeindustries?**
+- Unfamiliar
+- 1
+- 2
+- 3
+- 4
+- 5
+- Extremely Familiar
+**4.DidAI haveasignificantimpact oncreativeindustriesinrecentyears?**
+20
+- [ ] Yes
+- [ ] No
+**5.Howoftenhaveyouseen AI-GeneratedContentwithout properattribution towards
+theactual artists?:**
+- [ ] Yes
+- [ ] No
+**6.Have younoticedany instancesof AI-generatedcontentbeing usedwithout proper
+credittowardstheoriginal humancreators?:**
+- [ ] Yes
+- [ ] No
+**7.Can AIcapture the""Essence""of Human-CreatedArt:**
+- [ ] Yes
+- [ ] No
+**8.Has therebeenadecline ofAIQuality:**
+- [ ] Yes
+- [ ] No
+**9.Can AIcontentelicit humanemotions?:**
+- [ ] Yes
+- [ ] No
+**10.Can theintegrationof AIenhancecreativeprocesses:**
+- [ ] Strongly disagree
+- [ ] Disagree
+- [ ] Neutral
+- [ ] Agree
+- [ ] Strongly agree
+21
+**11.Is therean impact madebyAI onjobprospects for humanactors?:**
+- 1(No effect)
+- 2
+- 3
+- 4
+- 5(Manyopportunities missed)
+**12.Would youprefer AI-GeneratedContentif itwere indistinguishable?:**
+- [ ] Yes
+- [ ] No
+**13.Have youeverclaimed AIworkas yourown?(Anonymous):**
+- [ ] Yes
+- [ ] No
+**14.Areyouaware ofanyinstances where AI-generatedcontenthas beenembraced
+and celebratedbyaudiences?:**
+- [ ] Yes
+- [ ] No
+**15.Concernin theArt Industry:**
+- 1(Not Concerned)
+- 2
+- 3
+- 4
+- 5(Extremely Concerned)
+**16.Concernin theMusicIndustry:**
+- 1(Not Concerned)
+- 2
+22
+- 3
+- 4
+- 5(Extremely Concerned)
+**17.Concernin theFilm/Video Industry:**
+- 1(Not Concerned)
+- 2
+- 3
+- 4
+- 5(Extremely Concerned)
+**18.Google Images AIArt Experiment:**
+Asa fun little experiment,doa quickgoogle imagessearchon""animeart[topic]""
+(Replacing theword‘topic’ withacommon subjectof yourchoicelike boy,cute,
+aesthetic). Outof thefirst 50results orso, howmany doyouthink areAIgenerated?
+- [ ] None
+- [ ] Between 5-15
+- [ ] Between 15-25
+- [ ] Between 25-35
+- [ ] Between 35-45
+- [ ] All of them
+**19.Image Upload (optional):**(Screenshotthepage withAIart)
+**20.What doyou thinkis theimpact ofAIonthe overallcreativity andinnovation
+within theentertainment andartisticindustries?:**
+[Your responsehere]
+**21.What regulations doyouthinkshould beputin placetomanagethis new
+technology?:**
+23
+[Your responsehere]
+**22.In what waysdoyouthink thatthe useof AIcould bepositivefor all parties?:**
+[Your responsehere]
+---
+s.
+24
+25","BINUS INTERNATIONAL
+ENGLISH LANGUAGESERVICES
+The degradation of artistic expression",2,
+LessonsVideoGamescanTeach.pdf,.pdf,217974,2024-11-29 08:14:53,"EvenSemester (2024)
+BINUS UNIVERSITY INTERNATIONAL
+FINAL PROJECT REPORT: CHARACTER BUILDING RELIGION
+The Lessons Video Games Can Teach:
+Why its Loss Would be Detrimental
+AndrewTanuwijaya- 2602158216
+Hilkia KennanLatjandu - 2602174485
+RuixinHuang- 2802466713
+L4BC
+Lecturer : PETRUS LAKONAWA, S.S., M.Th.
+Table of Contents
+Table of Contents………………………………………………………………..………………. 2
+Chapter1: InsightsIntoThe Project…………………………………………………………….. 3
+1.1: TheBackground ofthis Issue……………………………………………………….3
+1.2: TheNumbersBehindIt ……………………………………………………………..3
+1.3: Factsand SupportingData ………………………………………………………….4
+Chapter 2:TheAnalysisof RegulationsAroundtheWorld ……………………………………..5
+2.1: Indonesia’sAttemptto SupportLocal Development……………………………….. 5
+2.2: WhattheWorld isDoing……………………………………………………………7
+Chapter 3:TheValuesTheyBring………………………………………………………………8
+3.1: TheValueof VideoGames inTeachingSpiritual Values…………………………...8
+3.2: Persona5…………………………………………………………………………….8
+3.3: Yakuza0.………………………………………………………………………….. 10
+3.4: TheCultof theLamb ………………………………………………………………12
+Chapter 4:PossibleSolutions ………………………………………………………………….. 13
+4.1: Solutions…………………………………………………………………………...13
+4.2: Conclusion..………………………………………………………………………...14
+4.3: Reflections…………………………………………………………………………15
+2
+Chapter 1: Insights into the Project
+1.1.TheBackground of this Issue
+Sincethedawnof time, ashumans, wehavespread traditionalandspiritualvalues
+through manydifferentmediums. Backthen,preaching wasandstill isoneof themost popular
+forms of spreadingreligiousvalues.Then,television becamethe most popularmethodof
+entertainment. Thus,for religions tospreadtheirvaluesmoreeffectively, moviesweremade so
+anyonecouldwatchand learnabout acertain religionalong withtheirvalues.ThePassion of
+Christ (2004), for example,is stillregarded asoneof thebest religions films,as itdepicts the
+sacrificesChrist maderealistically for everyonetosee [1].
+Now,oneof themostpopularmediums ofentertainment that themajority, ifnot allthe
+youth interactwithoften,isvideo games.Approximately40% ofthe worldplays video games,
+and 38% of thatageranges from 18-34 [2]. Gamessuch asMinecraft, Fortnite,andCall ofDuty
+became worldwidesensations asmany played them.This mediumhassuch anever-growing
+following, so it wouldonlyberight for it tohave spiritualvaluesspreadthrough itthrough
+interesting stories.
+However,difficulties havearisen, andvideo gameshavebecomeamediumthat gets
+moreand moredifficult to useeffectively.
+1.2.TheNumbersBehindit
+Indonesiaisnoexceptionto this.A simplesurvey, rangingfromhigh schoolstudents to
+university students,was held byustosee whatthey thoughtabout videogamesand their
+experiences fromthem.
+3
+Figure.TheResultsoftheSurvey
+Thenumbers areclear;at leastonevideo gamehas hadanimpact onthemajority, telling
+an interestingnarrative that ledthem togain spiritualvaluesandbetterthemselves.The
+importanceof videogamesthat raiseda generationof people shouldnotbe underestimatedas a
+mediumto tell storiesandspread valuesthatone maybewouldnot beable toget.
+1.3.Facts and SupportingData
+Some difficultiesincludethe arduoustasksadevelopermust gothrough inorderto not
+only developtheir gamebutalso have itsucceed.Themarket for videogamesis incredibly
+oversaturated, andfinding success isvery slim.Nottomentionthe internationalmarket being
+extremelycompetitive,making game developmentinIndonesia very off-putting. Onemight
+wonderhow thisisa religious/spiritual issue.
+Well,a lot of largestudioshave beenpandering tothemasses, creating alarge,perpetual
+machine whereconsumers arefed thebareminimumof whatis necessary.Notonly doesthis
+hindergoodgameswith meaningfulmessages frombecomingpopular, butitalso createsabad
+name for games.
+4
+RegulationsimplementedbyIndonesia willbetouched uponlater.However,the general
+consensus isasfollows:
+1. KOMINFO(Ministry ofInformation andTechnology)blocking popularinternational
+videogame distributionplatforms.
+2. A new,pendingregulation tolimitthe accessof foreignvideo game publishersin
+Indonesia.
+Chapter 2: The Analysis of Regulations Across the World
+2.1.Indonesia’sAttempt toSupport LocalDevelopment
+In 2022,a controversy occurred regardingthe decisionof KOMINFO(The Ministryof
+Information and Technology)toblock popular internationalvideo game distribution platforms
+suchasSteam andEpic Games.Thiswas doneasan attemptto:
+1. Incentivize Indonesian playersto purchaseandplay locallydevelopedgamesinstead.
+2. Haltthespread of hoaxes throughthesechannels (astheyhave communicativefeatures).
+This blockwasdonein tandemwithablock onPayPalandYahoo aswell. Thisdecision
+was frowneduponbythegeneralpublic for many reasons.
+1. Theability toblocksitesfor those reasons wouldcreatea dangerousstandardthat allows
+thegovernmenttolimit accesstoany website,thusincreasingcensorship andlimiting the
+spread of information.
+2. Concerns regarding thefactthat userdata couldpossiblybe handledpurelybythe
+governmentinstead.
+3. Banninginternational videogame platformswouldnotallow anyoutsideinfluence, thus
+highly limiting inspirationandinnovation.
+5
+Having outsideinfluenceis alwaysgoodto ensurethat youcanlearnfrom thosewith
+different experiencesfrom yourself. Astheyounger generation growsupwithvideo games,
+limiting foreign influence mayintroduce astopgap inunderstanding foreignspiritualvalues.
+For example,theJapanese believethat thereareGodsandspirits ineverycorner oftheir
+surroundings. Rivergods/spirits thatsave farmers duringa drought,or godsthat guidethose who
+want successtowardsit. Itis aninterestingforeign culturethat isnot practicedinIndonesia.
+This isahighlight of thegame Ghostwire:Tokyo[3], anddespite itnotbeing aprimary
+componentof thegame, itis somethingthat playerslearn intuitively.Thisis why videogames
+area veryvaluable mediumof entertainment for players,anda methodfor those who wantto
+spread spiritual/religious values.People hate itwhenamessage someoneistrying to conveyis
+forcedin frontof their faces,and sohavingthe playergothrough anexperienceandfind out
+thesemessages for themselves isthe best waytospreadamessage. A bitcorny, sincethismeans
+thebest wayvaluesaretaughtis byallowingplayers tofind outfor themselves.Moregameswill
+be discussedlateroninthedocument.
+Thesecond regulation wouldcallfor foreignpublishers toestablish alocalpresence
+beforetheydistributetheirgamesin Indonesia.Companies wouldhaveto registeraslimited
+liability companies,or theirplatformswouldbe blocked.This isyet anotherregulation thatadds
+unnecessarypressureoncompanies that,if putinto effect, willbebeneficial onlytothe
+governmentand notto the developers inthecountry. If anything, itwill havethe oppositeeffect.
+This kindof regulation wouldjust addtothe costof operations for thecompanies and
+havethefollowing result: Thepublishers donotagree,whichwill mean theirgameswillnot
+enter Indonesia.I havedetailedwhy this isan undesirableresult.Notonlythat, butlocal
+developers maymissouton collaborationswithinternational publishers. Thisisjust aregulation
+beneficial tonoone butthe government.There isnoreason toburden videogame publishers.
+Videogamesaside, theblocking ofsocial mediasitesthat donotconformto government
+regulationsisa decisionthat maynot bethebest for the population.Oneofthe mostimportant
+spiritualvaluesisto realize that youshouldthink for yourself.Having someoneelsedecidewhat
+to do for youisneversomethingthat youshouldallow.
+6
+2.2.What the World isDoing
+Thequestioniswhat isthe restof theworld doingtosupporttheirvideo game industries.
+Well,for one, South Koreadoes sobyfunding itsgaming industryinstead. Thisway, theesports
+scenethrives,which inturn helps theindustry.By providing theirsupport,game developerscan
+focusoncreating moregames withgoodmessages withoutburden.
+Japan helpsthroughothermeans.Historically,protecting the intellectualrightsof video
+gameshasbeenvery difficult. Sincethey havea globalreach, differentintellectuallaws apply
+wherevertheygo.Countrieswithweakerintellectual propertyenforcement areextremely
+susceptibleto piracy.Anotherreasonis just howcomplexIP (IntellectualProperty) components
+are.There aresomanydifferent componentsthat fallunder differentregulations.Game code
+fallsunder patents,artwork andmusicbelong tocopyrights,and brandnames/logos need tobe
+trademarks.With somany differentcomponentstoprotect, itcan bedifficult, as eachone
+requiresa differentlegalprocess.Thus,Japan helps theirdevelopers byhavingarobustlegal
+frameworkfor videogameIPs andbyhaving internationalcooperation toensurethat the process
+ismuchmoresimplified wheneverneeded.
+Lastly,theUKgoesastep further withinternational cooperation. Theysendtheir
+developers overseasto internationalconferences andeventstolearn morefromthose whoknow
+themost intheir respectiveindustries.Thisis suchan excellentmove sinceitsupports mypoint
+that internationalexperiences arethebest wayadomestic developercan learnandgrow.
+7
+Chapter 3: The Values They Bring
+3.1.TheValue of Video Gamesin Teaching Spiritual Values
+Videogameshavealargeinfluence onthe livesofnewer generations.Asalargemajority
+playvideogamesoften,the chancesoftheir valuesbeingformed byvideogamesis veryhigh.
+Asa lot of theoldgeneration wouldlike totry tostopthis bybanning videogames,it wouldbe
+wiserto embracethis change andteachvaluesthrough theseplatforms.Attemptingtoforce
+people into learningagainsttheirwill isneverthe answer. Instead,let them findout theanswers
+for themselves.This chapter dives intothreegamesthat, although conveying someexcellent
+spiritualvalues,donot doso inawaythat forces themessage totheplayer.These gamesare
+Persona5,Yakuza 0,andCult ofthe Lamb.Ofcourse,this will includespoilersfor all three
+games.
+3.2.Persona 5
+Persona5isa JapaneseRPGpublishedbyATLUS. It followsthe protagonist,named Ren
+Amamiya,who isfalselyaccusedof assaulting apolitician. Inactuality, hewassaving awoman
+who wasbeingassaulted bysaid politician. However,withmoney andconnections,the politician
+managedto spinthenarrative, makingour protagonist acriminal.Ren isconvicted,and as
+penance,isforcedto move citiesto Tokyoandattendanewhighschool.
+On thewaytohisfirst day,Ren meetsRyujiSakamoto, anotherstudentof theschool he
+was attending,Shujin Academy.Asthey bothmake theirwaytowardstheirschool, the path
+somehowleadsthem toa castlewhere Kamoshida,the Olympicmedalist gymteacher, wasa
+king. Itturnsout theyhavethe abilitytoenter thecognitiveworld andenterpalaces, a
+manifestation of warpeddistortion based onthestrong,corrupt thoughtsof someone.Kamoshida
+had beenabusingstudents onthevolleyball teamtoforce results,and althoughthe teachers
+knew,theycoveredit upsinceKamoshida’s reputationprecedes him. AsRyujiis almostkilled
+and Renisrestrainedashe isforced towatch, hereflectsonhow hehas beenwronged, and
+8
+resolves hiswill torebel against thedistortionsof society.Thisawakens hispersona,a
+manifestation of theuser’spersonality. Ryuji shortlygains oneaswell inanotherpinch.
+Whentheymanagetoescape, Renand Ryujitry toinvestigatethe issue,butaremet with
+thethreatof expulsionwhen Kamoshidafindsout.AsShiho, anotherstudent,attempts toendher
+life toescape Kamoshida, Ann, Shiho’sclosest friend,accidentallyfindsout aboutthe cognitive
+world aswell.Thethree, alongwith acompaniontheymet trappedin thecognitiveworld named
+Morgana,decideto “steal Kamoshida’sheart” inthe cognitiveworld,which wouldtriggera
+change of heartin thereal worldandmake him confesstohis crimes [4].
+Asthegame goeson, Ren meetsmorecompanionsandchangesthe heartsof distorted
+individualswithin society.Theyforma groupcalledthe PhantomThieves, as theystealthe
+heartsof people withdistorted desires andtake advantageofthe weak.There aresomany
+spiritualvaluesone canobtain fromthis game.For example,oncethe userawakens totheir
+Persona,a physicalmask forms ontheirface,a metaphorfor how theyconform tosocietal norms
+byhiding behinda mask.Tosummon thePersona,the usermust ripoff theirmask andreveal
+their trueselves.This reflectsa lotabout individualswithin oursociety.We canask thequestion
+of who peopletruly are,deep inside,beneaththemask theyput ontoabide bythenorms.
+Another majorvalue comeslateron,towardsthe endof thegame, whentheprotagonist
+comesacrossa dilemmaas theyattempt tostealthe heartof societyitself. Thecognitiveworld,
+named Mementos,isanamalgamationof humanities consciousandsubconscious desires.This
+gavebirth to aTreasure, whichis theaspectof humanitythat desiresto becontrolled, thesin of
+sloth. Thisaspect forms agod—notan omnipotentone,butone bornfromthesedesires names.
+Theeventsof thegame turn outtobea prejudicedtestbythis godtosee if humanity truly wants
+nothing but tobe controlled.Ourprotagonist, Ren, isthe ace ofhumanitychosen byIgor,a
+representative of theGodof Persona,orthe veryfirst being bornfromthe collective
+unconsciousness.This provokesa thoughtwithin theplayerabout whetherit’sbetterfor society
+to have onecollectivethought andbecontrolled byYaldabaoth ortofight for change within
+society asanindividual with theabilityto makea difference.Thegame teachesus tothinkfor
+ourselves andnot conform tosocietal normsif itmeansfitting in.
+9
+3.3.Yakuza 0
+Yakuza 0isagame set inthe1980s, takingplacein twolocations,TokyoandOsaka, with
+twoprotagonists,Kazuma Kiryuand GoroMajima.These twomengothrough differenttrials
+and tribulations,each with theirown struggles.
+Kazuma Kiryu isalow-level Yakuza,withoutstatus, andjust anothername inthelarge
+masses.Ashe ishiredtocollectthe debtof someonewhoowes them,he doeswhathe ismeant
+to do andbeatsuptheclient.Thenext morning, itturnsout theclientwas founddead inthat very
+alley,andthelieutenantsare nothappywiththis. TheywantKiryu toturn himself in,buthe
+knowsthat heisinnocent, asthat mandied fromagunshot wound, despiteKiryunot carryinga
+gun.Notonly doesKiryu have atargetonhis back,but hisfather figureand captainofthe
+lieutenantsarebeingconsideredfor demotionas hewasthe onewho tookinKiryu.
+Tomake matterscomplicated, theclient waskilledinasmall plotof landcalledthe
+Empty Lot, apatch of dirt inthe centerof theKamurochoShopping Area. Theareais essentialto
+theKamurochoRevitalization Project,whichwouldbring inasubstantialamount of moneyto
+whoever completesit. TheEmptyLot is theonly landthat noonecould locatetheowner of,
+which isnecessarysincethat personcouldclaimlegalrights overthat ground ifthe projectwas
+completedwithout their consent.So, Kiryu isthrown intoathree-way internal warbetween the
+Yakuza overcontrol of this land.
+Meanwhile, GoroMajimais the“Lord ofthe Night”,the managerof TheGrand,the most
+popularcabaret clubinSotenbori, Osaka.Hewasforced intothis roleas penanceduetohis
+attemptto betraytheYakuza yearsago.On the nighthemet his quota,his superiorSagawa
+raisedtherequired amount to500millionyen.Sagawa thengives himthe optionof continuing
+hiswork or assassinatingMakoto Makimura,a ruthlesshuman traffickerwho takesadvantageof
+college girls.Although hehas neverkilledanyone,Majima reluctantlytakestheoffer.
+His investigationleadsto amassageparlor ownedbyaman nicknamedtheGod Hands.
+Heruns into ablind girl working thereandis offereda massage.Heagrees, onlyfor Makimura
+to entertheroom afterit’s over.Theyfight, andas Majimawins, otherYakuzaflood theroom
+and kidnaptheblind employee.It turnsoutthat shewas MakotoMakimura all along,so Majima
+savesher,butthenrealizesSagawa liedabout thehuman trafficking.
+10
+Heisfaced witha brutal dilemma:whetherto saveMakoto or killher andearnhis place
+backin theYakuza.Majimathen finds outaboutthe KamurochoRevitalizationProjectandthe
+fact thatMakoto, whoinheritedit fromher grandfather,isthe trueownerof theEmpty Lot. The
+storyof Yakuza 0issowellwrittenwith dilemmasand moralsthe protagonistsmustface thatthe
+player forgetsthattheyarealso unconsciouslylearning amessage [5].
+Both charactersdisplay resilienceandperseverance. Kiryu, beingframed for acrime he
+did notcommit andforced intobattleagainst powerfulsuperiors,keeps asteelwill toclearhis
+name andprotectthose he caresabout. Majima,held captiveinhis jobandbeing madeto follow
+strict, unreasonableorders,held outjust toseek redemption. Despiteitall, herisksit all to
+protectthis girl hejust metandensure hersafety asthe entireYakuza comesfor her.
+Oneothervalue isself-discovery andfacilitating theirown personalgrowth. Throughout
+their respectivejourneys, Kiryufindsthe kindof personhewantsto beashe fightsthrough and
+goesthrough trialsto savethose hecares about.Majima goesthrough themost growth whenhe
+meets HomareNishitani,a manwho simplydoes notcareabout anythingand liveshislifefreely.
+Despiteinitially beingsomeoneforced intopretending tobea calm,collectedmanager,Majima
+isinspiredbyNishitani to livelife howhe wantsandis rebornas “TheMadDog of Shimano”.
+A notablevaluelearntis keepinghumility andstayinghumble. Kiryuis oneofthe
+strongest charactersthroughout theseries, yethe doesnotlook tohisfists tosolve every
+situation.Instead,he tries toresolve itthrough peaceful means.Heneverletshispower inflate
+hisego andremains oneof themost grounded characters.Majima, ontheotherhand, isforced to
+learn humilitythrough his fakepersonalityandjob.However,theselessons impactedhim asa
+character,keeping him humbleandhelping otherslater onashe grewas acharacter.
+Yakuza 0isfamousfor having anincredibleamount ofside stories for theplayerto do,
+and manyhavedistinctlessonsthat teachplayersthe value ofdifferentthings, like valuing their
+livesor stayingperceptive eveninmoments ofweakness.It truly isa gamefilled withspiritual
+valuesthat donotforcethemselves ontheplayer.
+11
+3.4.Cult of the Lamb
+This gameismore simplisticinits approachtoproviding spiritualvalues.It provides
+them ina morestraightforward way.Theprotagonist, alamb, is setto besacrificed byagroup
+called theBishopsof theOldFaith. However,justbefore death, youaresavedbyTheOneWho
+Waits, agodly beingwhohas beenchained.It savesyoufromthe brinkof death andgives you
+thepowerto startacult anddestroythe Bishops,who imprisoned it.
+Throughout thegame, yousave peoplefrom thecult ofthe Bishops,andthey joinyour
+following instead. Youbring themback toyour base,where it isthe player’sjob totake careof
+your followers, ensurethebase issanitized, keep everythingorderly,and makesureyour
+followers areloyalto you. Then,youcanassignthem tohelp buildand sustainyourcult.
+In theend, however, youcometo realizethatTheOneWho Waitssaved younotoutof
+goodwill but insteadto use youasa pawntodestroythe Bishopsandbecomeanalmighty deity
+oncemore.Theplayer,whohas beenrelyingonthis entitytobestow powers uponthem,realizes
+what itstruenature reallyis.It serves asatestof theconsequences of theplayer’s actions
+throughout thegame andtheir moralcompass[6].
+Simply put, youlearnthe consequencesof yourown actionsas youdogood and
+questionable thingsto helpthe cult grow.Inthe end,theplayer reflectsonwhatthey havedone
+and asksthemselveswhetherit istruly worth it.
+12
+Chapter 4: Possible Solutions
+4.1.Solutions
+Abandontheproposed changes.Increasingtheoperating costsfor foreignvideo game
+publishers hasnobenefitfor localpublishers. Wewouldcompletely reject thislaw for these
+reasons:
+1. Thepublishers donotpayfor thesecosts,thus pulling theirgamesawayfrom
+Indonesia.
+2. This meansthat therearefewer internationalgamesonthe Indonesianmarket.
+3. Lessinternationalgamesmean lessoutsideinspirationandlessroom tolearn
+from others whoknow better.
+4. Players wouldwant tofind otherwaystoobtain theseforeigngamesregardless,
+usingpossibly lessethicalmeans.
+5. Thechancesof Indonesiangamesbeing played moredonotincreasebyasizable
+marginin comparisontothe lossesincurred bythis law.
+Thecurrent law,asa matterof fact,requiresnochanges.Instead, thegovernment should
+just introduceprogramstohelp localgame developers.
+1. Start advertisinglocalgamesthat shouldbe spreadmore.If thegameshave good
+messages andconvey themproperly, thenthey willbesuccessful. Peoplejust needto
+know aboutit.
+2. Subsidizegame development.It is anarduoustask, soanylittle bitwill help.
+3. Help thegamedevelopersbyflying them outto internationalconventionsso theycan
+learn moreaboutgame development,just like theUK does.
+13
+4.2.Conclusion
+Manygameshavepositivemessages, andsincethe younger generationplays video
+gamesa lot, theyenduplearningfromit alot too.Inorder tosolve aspiritualcrisis within
+society,gameswith uplifting messages toldina goodwaycanreally help.However,games
+developmentisstill heavilyundervalued inIndonesia duetothe scarcemarketing of gamesin
+general.Thegovernmentcan aidthis byhelping developersgain moreexperienceandexpose
+their workfor people toknowabout.
+4.3.Reflection
+Tobe honest,asa group,welearned alot more.Inorderto portraygamesproperly,we
+had tochoose froma lot of excellent ones,andit wasnoeasy task. Playingthose gamesand
+learninga bit moreaboutourselves andwhatwecan dofor societywastruly eye-opening.
+Having theseexperienceswas aprivilege, andwiththis project, wehopethat otherpeoplecan
+also seethevalue thesegames havewhenit comestoconveying spiritualandreligious values.
+TheLink of the Poster:
+https://www.canva.com/design/DAGGcm_Wj88/BBLRxep8vVBsnKCUBFXL9A/edit?utm_cont
+ent=DAGGcm_Wj88&utm_campaign=designshare&utm_medium=link2&utm_source=sharebut
+ton
+TheLink of the Video:
+https://drive.google.com/file/d/1coxb9VIxFXxaxIoMKllu-Qg90P8f9kai/view?usp=drivesdk
+14
+References
+[1]. Orr,C.(2011,January 18).Themovie review:“The passionof thechrist.”TheAtlantic.
+https://www.theatlantic.com/entertainment/archive/2004/09/the-movie-review-the-passion-of-the
+-christ/69497/
+[2]. Gaming statistics2024.TrueList. (2024, February17).
+https://truelist.co/blog/gaming-statistics/
+[3]. Tango Gameworks.(2022).Ghostwire:Tokyo [Videogame].Bethesda Softworks.
+[4] Atlus.(2019). Persona5: Royal[VideoGame].SEGA.
+[5] SEGA. (2015). Yakuza0[VideoGame].SEGA.
+[6] MassiveMonster.(2022). Cultofthe Lamb[VideoGame].DevolverDigital.
+15",EvenSemester,R,
+PaperRexandTalonFacetheLowerBracket.pdf,.pdf,43564,2024-11-29 08:14:53,"Andrew Tan–Written July2024
+On July132024,thedoubleeliminationsegment ofthe PacificPlayoffsbegan, andbothPaper
+Rex alongsideTalonEsports wereswept up2-0byGen.G andDRXrespectively down tothe
+lower brackets.With Korean Valorantassertingits dominanceinthe Pacificregion,both Paper
+Rex andTalonEsportsfaced unfortunate defeats asthey mustface offthe nextday for
+elimination,whileDRXand Gen.G battlefor thefirst Grand Finalsspot.
+In Paper Rex’scase,themaps played wereAscent andIcebox,with theformer being amapthat
+theteamwere historically nottoostrongat, havinglost toZETADIVISION andRRQ onAscent
+despite stillwinning theseries.Their saving grace,however,is thatthey seemedmuch more
+confident,and canattributethe closeloss tolosing bothpistols.
+On Icebox,however,it simply seemedasif Gen.G were onadifferentlevel,as theyplayed an
+incrediblegame thatPaperRex were simplyunable tokeepupwith. WhetherPaper Rex can
+bouncebackand makea lowerbracket runtothe GrandFinals depends if theycan findtheir
+stridein theirgame thenext dayagainstTalon.
+In Talon’sstory,whilethefirst map wasalso Ascent,the audiencegotto seeDRXbring outtheir
+strengths onthenewmap, Abyss.On Ascent, itseemedas if Talonwere unable tostartthe
+momentum neededto winrounds, as theywere unable tostringtogether thewinsneeded.
+On Abyss,it was afreefor all,a clashofidealsbetween the twoteamsasthey brought out
+different compositions.Whilebothteams ranOmen, Cypher,and Sova,DRXwentwithJettand
+Kayo.Talon,ontheotherhand,opted torun NeonandIso, adoubleduelist executeheavy
+composition.DRX’sideascameoutontop, asthey closedthemap off13-4. Inthe postmatch
+interview,however,Talon’s headcoach FrosTsays therearemorecomps theteamwouldlike to
+try,asthere isnoset“meta”comp for thisnewmap yet.
+Paper RexfacesTalonEsports for elimination,andGen.G willfaceDRXfor the first Grand
+Finals Spot onJuly14,2024.
+TalonPost MatchInterview: https://www.youtube.com/watch?v=HOl1MjfErJI",Andrew Tan,A,
+Semiconductors.pdf,.pdf,117941,2024-11-29 08:14:53,"Semiconductors
+AndrewTanuwijaya- 2602158216
+Semiconductors,inthesimplestform,isaconductorthathasaconductivitylevelbetweenanactual
+conductor(oranobjectthatallowsheat,sound,orelectricitytopassthrough),andaninsulator(which
+doesnotallowtheaforementionedsubjectstogothrough).Thereasontheyarenotfullconductorsisdue
+totheintroductionofdifferentalloysintothematerial.Siliconeisthemostcommonmaterial,asitisnot
+onlycheapbutrathereffective.Whileitmayseemslightlycomplicated,restassured,thenatureofthese
+strangedeviceswillberevealed.
+Therearemanyreasonsastowhyonewoulduseasemiconductor,butnoneareknowntothegeneral
+public.Asamatteroffact,chancesarethatnotmanywouldevenknowwhatasemiconductoris,orwhat
+itdoes.Fairenough,tobefair.Whyareweevenusingsemiconductors?Afterall,anormalconductor
+shouldbemorethanenoughtodothejobofelectricalconduction.Well,thatstatementisunfortunately
+false.Theusesofsemiconductorsareincrediblyhigh,muchmorethanmostwouldexpect.
+Semiconductorsareusedtomanipulatetheflowofconduction.Normalconductorsallowconstantflow,
+theycontinuouslyallowtheelectricity,orwhateverisbeingconducted,torun.Thatfactisamazing,and
+shouldbeenough.However,changeitupabit,andtrytocontroltheconductioninstead.Theconductor
+cannothandlethejob,asitkeepsconducting.Asemiconductor,ontheotherhand,fitsthebillquitewell,
+asitcanbealteredtoaltertheconduction.
+Whyaresemiconductorsimportant?Well,nameanyelectronicdevice,andthereisahighchanceitusesa
+semiconductor.Computers,forexample,usesemiconductors.Smartphones,ofcourse,use
+semiconductors.Televisions,radios,andmostmoderngadgetswillusethem.Commonlyusedin
+computerchips,theyhelpregulatetheflowofconductionwithinthedevice.Takealamp.Witha
+conductor,wewouldhavethatlighton24/7,astherewouldbenomeansofswitchingitoff.However,
+whenweinputasemiconductor,thelightscanfinallygodark.
+Let’stakeacloserandmoreimportantexample,asmartphone.Whatdosemiconductorsdoin
+smartphones?Unfortunately,alittlebitofA-LevelPhysicsisrequiredtogoanyfurther.Inacircuit
+(whichsmartphonesaremadeupof),therearetwotypesofcurrents.Thereisthedirectcurrent,andthere
+isthealternatingcurrent.Bothareexactlywhattheysoundlike,thedirectcurrentiswhentheflowof
+chargeiswithinasingular,directline,whilstthealternatingcurrentisacurrentthatwouldalternateits
+directionatsetincrementsoftime.
+Whywouldweuseeither?Thealternatingcurrentismoreefficientwhenbeingtransmitted,whilethe
+directcurrentismoreefficientatitsownjob.Sincethealternatingcurrentcanbetransmittedwithless
+powerloss,itisthetypeofcurrentthatourhomeelectricityuses.However,ourphonechargersdonotuse
+thesametype.Ifwetriedtouseanalternatingcurrentforourphone,itwouldsimplyexplode,duetothe
+typeofenergybeinginput.Asmartphoneusesabattery,andsoadirectcurrentiswhatweneed.Visualize
+abattery,withthepositivesideandthenegativeside.Thus,arectifier,whichcontainsasemiconductor,is
+used.Withintherectifierisadiodethatonlyletsthecurrentflowinonedirection.
+Well,thatseemsheavy,doesitnot?Hopefully,thatwillbethelastdifficultexplanation.However,Ihope
+thepointisclear:theapplicationsofsemiconductors,whilecomplex,areextremelyimportantand
+incrediblyvaried.Thenextquestionishowitimprovesourlife,andhowwillitpavethewayforour
+future.Asmentioned,ithelpswithmanydailydevicesweusefromdaytoday.Theheavilyexplained
+exampleisforsmartphones.Imaginethepossibilitieswecouldcreatewiththistechnology.Computation
+isalreadyadvancingaswespeak,intermsofspeed,costeffectiveness,andpower.Soon,computing
+speedwillincreasewiththeeaseinaccessibilityforquantumcomputers.That,however,isstillquitefar
+inthefuture.
+So,whataboutthecontributionssemiconductorsmadeforthedifferentindustries,suchastransportation,
+communication,andthehealthcareindustry?Intermsoftransportation,ithasallowedustoenjoyamore
+comfortableridefromdestinationtodestination,withtheentertainmentaspectsuchasair
+conditioning/touchscreensandthesafetyaspectssuchastheairbaghavingamorestablefunction.In
+communications,semiconductorsallowforwirelessconversationstobeheldfromanywhereacrossthe
+globe(asmentionedinelectronicspreviously).Semiconductorsrevolutionizedhealthcare,asmost
+medicaldevicespluggedintoasocketrequiretherectifierspreviouslyexplained.Anythingthatneeds
+electricityprovidedfromanoutersourcewouldusuallyhaveasemiconductorinit.Withoutit,heartbeat
+monitors,X-Rays,CATscans,andmanyotherhealthcareinstrumentswouldnotworkatall.
+Cleanenergy,ontheotherhand,requiresitsownparagraph.Whileyes,thepreviousstatementsare
+applicable,theusageofsemiconductorsinprovidingcleanenergyisalotmoreinterestingtogetinto.
+Solarpanelsarethemostpopularformofcleanenergy,andthewayitworksissurprisinglysimplistic.
+Twosemiconductorsareusedtoseparatethepositiveandnegativeparticlesinthesunlight,usingtheir
+differingcharges.Photons(commonlydefinedasaquantumofelectromagneticenergy)inthelightwould
+transferitsenergytothenegativelychargedelectrons,whichwouldformacurrentofelectricity,andthen
+wehavepower.Noneofthiswouldbepossiblewithoutthetwosemiconductors.
+Inconclusion,semiconductorsareheavilyoverlooked.Whiletheaveragepersonwouldbeunlikelyto
+knowwhatitis,thefactsarethere:semiconductorsareoneofthemostimportantpiecesoftechnology
+thathaschangedourworld,anditwillcontinuetodosoasithelpsusadvanceevenfurtherintothe
+future.
+References:
+Desk,H.T.A.(2022,January23).Here'swhereallyoucanfindsemiconductorchipinvehicles.
+HindustanTimesAutoNews.RetrievedOctober10,2022,from
+https://auto.hindustantimes.com/auto/news/heres-where-all-you-can-find-semiconductor-chip-in-ve
+hicles-41642934664014.html
+SemiconductorIndustryAssociation-
+https://www.semiconductors.org/wp-content/uploads/2020/10/From-Microchips-to-Medical-Device
+s-SIA-White-Paper.pdf
+https://www.energy.gov/eere/solar/solar-energy-technologies-office
+https://www.energy.gov/eere/solar/how-does-solar-work","Semiconductors
+AndrewTanuwijaya",h,
+SmartCitiesLiteratureReview.pdf,.pdf,44723,2024-11-29 08:14:53,"Smart Cities LiteratureReview
+Andrew Tanuwijaya,2602158216
+Summary of thePaper
+Thegoalfor this paperis moretoexplorethe technologyandchallenges that comeabout
+whendevelopinga smartcity.Focus isputtowardsthe methodscitiescan useto harnessdigital
+technologyto tackleurbanization challengeslike transportation, environmentalsustainability,
+and publicsafety.
+A reallygreatreview isdoneonmany smartcity technologies like autonomousvehicles,
+smartgrids,and urbansensors.There arealso somehighlights thatlook atthe majorchallenges
+thesetypes of citiesfacelike cybersecurity,data privacy,andintegratingsmart technologyinto
+alreadyexisting agedphysical infrastructure.
+Identificationof Gaps
+There issomeserious extensivecoverage ontechnologicaladvancements,butthereis
+still alack of discussiononsocial equityin smartcities, especiallythedigitaldivide between
+different socio-economicgroups. Withashrinkingmiddleclass andlargelyexpanding lower
+class, thesesmartcitiesmay impactthem differently,butthis topic isnot covered.Additionally,
+thepaperreferencesUS cities, whichisa decentwaytoshrinkthescope, butthere isnodetailed
+casestudies or anylong term evaluationof smartcity projects inamoreglobal context.
+Analysisof Ambiguities
+Some vagueterminology includesomevery broad termslike smart citysolutions and
+sustainabilitywithout really goingindepth abouthow theseconceptsareoperationalized, or
+measured inany differenturbancontexts. Thepaperalsoassumes that smarttechnology
+inherently benefitsurban populations, butthereis ageneralization thatthe positiveimpactwill
+outweighthenegative outcomes likedisplacement orexclusionof morevulnerable groups.
+Evaluationof Methodologies
+Examplesareplentiful withinthe paper,but aclearand concisemethodological
+frameworkthat analyzesthe effectivenessofsmart city technologiesis lessthanexistent inthe
+research. Instead,thepaperdecides tofocusmoreontrendsandemerging aspecificevaluation
+model thatwouldassesssuccess orfailure.Forexample, usingthe TechnologyAcceptance
+Model (whichevaluates to factors,PerceivedUsefulness andPerceived Easeof Use)wouldhelp
+theresearch understandhowusersaccept andadopttechnologymuch better.It would help
+evaluatethesocial acceptance,adoption barriers, andchallenges inintegration.
+Discussion of QuestionsRaised
+Themain questionswouldbeasking how smartcity technologies addressthe issueof
+social inclusion,and ifthere aremeasures(ifat all)inplacetoprotect againstunintended
+consequences of automation andsurveillance inurban spaces.Thesequestions arenotonly
+important butcompletely necessary asaddressing the balancebetween technological
+advancementsand socialwell-beingis thekeyto asocietythat doesnot createinequality or
+privacy concerns.
+CriticalReflection
+Thepaperisstill awell thoughtoutpaperthat has relevancefor urbanplanners,
+policymakers, andanyoneworking tointegratedigitalinfrastructure intocity development.
+Some verycompellinginsights areoffered intothe potentialof smarttechnologyfor
+transforming urbanliving.It is structuredproperly,withthe onlyissuebeing thatthe technology
+trendfocusdoesovershadow theethical andsocialimplicationof thesesmartcities.
+Conclusion
+Thecontributionsthe papermakesfor literatureonsmart citiesis welldone. Smart cities
+aresomething thatisthefuture, andthis researchoutlinesthe necessarykeytechnologies and
+challenges thattheymayface. Ignoringthe lackof depthin societalimplications, thisshould bea
+paperlookedatwhenit comes toresearchingsmart cities.Theonly cautiontohaveis thelack of
+inclusivity andequity,a problemeasilysolved.
+Future ResearchProposal
+Ensure thatthelong-term impactof smartcities onurban inequalityis moreproperly
+researched,sincethelivelihoodof people isanimportant factor toconsider whenbuildingthese
+cities.Goingdown therabbithole ofpolicies aimedatmitigating data privacyandsecurity risks
+isalso somethingto consider, sincetheireffectivenessis alargechesspieceinthis development.
+Combining moreinsightsfrom all sectorsis anidea tofollow aswell, toensurethat amore
+comprehensive approachistaken asthat ensures technologybenefitsall the urbanresidents
+equitably.
+Personal Insights
+Honestly,theydoraise someextremelygoodpoints. AsI haveinterestsin cybersecurity
+and dataprivacy,there areconcerns Ihad thatwere sharedwith thepaper. Dataprivacy issuch
+an importantfactor toconsider,andI thinkpivoting towardsthat direction isagreat learning
+direction for me.","Smart Cities LiteratureReview
+Andrew Tanuwijaya",F,
+TeslaHumanResourceSuccessReport.pdf,.pdf,43564,2024-11-29 08:14:53,"Andrew Tan–Written July2024
+On July132024,thedoubleeliminationsegment ofthe PacificPlayoffsbegan, andbothPaper
+Rex alongsideTalonEsports wereswept up2-0byGen.G andDRXrespectively down tothe
+lower brackets.With Korean Valorantassertingits dominanceinthe Pacificregion,both Paper
+Rex andTalonEsportsfaced unfortunate defeats asthey mustface offthe nextday for
+elimination,whileDRXand Gen.G battlefor thefirst Grand Finalsspot.
+In Paper Rex’scase,themaps played wereAscent andIcebox,with theformer being amapthat
+theteamwere historically nottoostrongat, havinglost toZETADIVISION andRRQ onAscent
+despite stillwinning theseries.Their saving grace,however,is thatthey seemedmuch more
+confident,and canattributethe closeloss tolosing bothpistols.
+On Icebox,however,it simply seemedasif Gen.G were onadifferentlevel,as theyplayed an
+incrediblegame thatPaperRex were simplyunable tokeepupwith. WhetherPaper Rex can
+bouncebackand makea lowerbracket runtothe GrandFinals depends if theycan findtheir
+stridein theirgame thenext dayagainstTalon.
+In Talon’sstory,whilethefirst map wasalso Ascent,the audiencegotto seeDRXbring outtheir
+strengths onthenewmap, Abyss.On Ascent, itseemedas if Talonwere unable tostartthe
+momentum neededto winrounds, as theywere unable tostringtogether thewinsneeded.
+On Abyss,it was afreefor all,a clashofidealsbetween the twoteamsasthey brought out
+different compositions.Whilebothteams ranOmen, Cypher,and Sova,DRXwentwithJettand
+Kayo.Talon,ontheotherhand,opted torun NeonandIso, adoubleduelist executeheavy
+composition.DRX’sideascameoutontop, asthey closedthemap off13-4. Inthe postmatch
+interview,however,Talon’s headcoach FrosTsays therearemorecomps theteamwouldlike to
+try,asthere isnoset“meta”comp for thisnewmap yet.
+Paper RexfacesTalonEsports for elimination,andGen.G willfaceDRXfor the first Grand
+Finals Spot onJuly14,2024.
+TalonPost MatchInterview: https://www.youtube.com/watch?v=HOl1MjfErJI",Andrew Tan,A,
+TheValorantEsportsWinter.pdf,.pdf,130412,2024-11-29 08:14:53,"The Winter Esports approaching Valorant
+Andrew Tanuwijaya
+Valorant is a tactical five versus five first person shooter developed by Riot Games in which
+accurate gunplay goes hand in hand with unique agent abilities. As a video game, it has been
+rising in popularity as of late. The free to play model Riot implemented was one of the most
+deciding factors, due to content creators establishing the game as a service. Creators further
+boosted its popularity during the pandemic when everyone was inside, watching online video
+streams [1]. Ever since its beta release in 2020, the game hasbeen experiencingrapidgrowthin
+terms of its game balance, audience, and esport. It competes with one of the, if not the most,
+popularfirst personshootersof all time,CounterStrike:Global Offensive.
+However, Valorant has its own way of standing out. It makes its difference from CounterStrike
+by introducing individual agent abilities.Asofwriting, thereare22diverse agentstoplay within
+the game, with five being unlocked immediately as you begin. This has allowed for amultitude
+of ways for the game to be played,showcasingits community’s creativityandability toinnovate
+with what they were given. It is also considered to be one of the most globallyacclaimedtitles,
+as even CS:GO had a large skill disparity between Europe and the rest of the world. A study
+done inIndonesiashowedhigh satisfactioncorrelating tothe highqualityofthe game [1].
+There are many issues with Valorant, of course. No game comes without its problems. At the
+highest ranks, streamers stream their game online for many to watch. Some viewers,
+unfortunately, decide to watch these streams as they play against them to gain an unfair
+advantage through information. Hacking, although very rare, does occur from time to time.The
+most pressing issue, however, is related to the best way Riot can expand their game: Valorant
+Esports,otherwiseknownas theVCT(ValorantChampions Tour))
+Firstly, an introduction to the issue at hand would be appropriate. The VCT circuit isa seriesof
+competitive regional tournaments that will allow the winners to qualify for the bi-annual
+international tournaments, VCT Masters, and the main annual event, VCT Champions. When
+Valorant started out, these regional tournaments were open qualifiers, meaning anyonewithany
+team could participate in these qualifiers and earn the right to play internationally. These teams
+would then be dubbed international winners, and champions. However, in 2023,Riotdecidedto
+change theprofessionalscene model Valorantwouldhave.
+At the end of 2022, Riot decidedto switchto afranchisingmodel for VCT.Thismeantthat each
+region (Americas, EMEA, and Pacific) would have ten teams selected by Riottorepresent their
+respective countries.These thirtyteamswere set instone, andwouldbeguaranteed aspot toplay
+each year.This wouldbecome Tier 1,thehighestlevelof Valorant.
+Meanwhile, organizations and free agents that wanted to participate in Tier 1 would have to
+undergo another tournament, called Ascension. Each region would hold an Ascension
+tournament to find the best team, and the winner would “ascend” to Tier 1, where they are
+guaranteed a spotfor thenext twoyears.Inorder toparticipatein Ascension,pointsfrom joining
+open qualifiers would have to be collected, and teams would have toworkhard tobepartof the
+franchised league.
+Although this sounds like an excellent, soundproof business model on paper, too many internal
+and external factors caused massive issues with this system. Without any solutions to these
+issues, then despite being a massive success, one glaringly bleak future could come to fruition:
+Valorant’sEsportsscenemay beburning out.
+The first issue lies within the Tier 2 system. Unfortunately, there is a problem with funding
+within the circuit. In the most basic sense, there is no incentive to invest within this specific
+portion of thescene.
+In March 2023, open qualifiers for Ascension within the respective regions were held, and they
+played until each region had its two representatives, in June. Then, July came, and three
+Ascension tournamentsplayed out,onefor the Americas League,onefor the PacificLeague, and
+one for the EMEA League. At the end of the month, three teams would ascendfromTier 2into
+thefranchised league.
+The main issueliesinthe remainingteams, however.Fora greatdeal ofmany teams,Junewould
+be the end of their journey for therest ofthe year.Organizations wouldhave topaytheirplayers
+salaries if theyheldonto them,andit makesnofinancialsensetokeep payingtheseplayers from
+July until March of thefollowing year,sincetheirtimeplaying professionally isover inthat time
+period. This hascausedmanyorganizationsto ceaseoperations inValorantTier 2andas aresult,
+less money is flowing through this economy. Tier 1 is important to maintain, of course, but it
+wouldnot existwithout Tier 2,andif itis neglectedlike this, thenValorant’sesports venturemay
+come toa ceasesoon.
+As if the situation was not dire enough, commentsmade bytheGlobal Headof ValorantEsports
+caused further controversy. Thewinner ofthe Americas2023AscensionLeague wasTheGuard,
+a North American organization. They were called a“Cinderella Team”,as inateamthat won by
+a miracle, a team that was not expected to perform as well as theydid [2]. However,manytook
+that comment badly, as they believed that The Guard performedmuch betterthan someteams in
+the franchised league. Even Ludwig, a popular content creator and owner of an organization
+competing in Tier 2, made some comments regarding this. Hementionedarelegationsystem to
+demote those who did not perform well, and give the slots to more deserving teams that could
+perform what was expected at the highest level of the game [3]. Regardless of the good
+intentions of the social media post, the nature of how it was said did not resonate well with
+everyone.
+So some surface level issues of Valorant’s Tier 2 scene should mostly be clear. However, what
+about Valorant Tier 1? Surely, the franchised business model,which hashandselected teamsfor
+partnerships, would be much less problematic and controversial than Tier 2. Yet, this is not the
+case,asproblemsstill arise inthe franchisedleagueregardless.
+Valorant is still a relatively new esport, it did not have the time to develop asound structurefor
+salaries. This makes some form of sense, considering themassive boomesports hasexperienced
+the past few years. Due to the global pandemic of 2020, esports has exploded in popularity,
+especially since regular sports could not run. This has led to the aforementioned boom, even
+producinga projectionof a $908millionrevenuein 2018[4].
+Then, Valorant released in 2020, right in the beginning of the pandemic, when everyone was at
+home. To investors, it seemed like a million dollar idea to invest. After all, Counter-Strike had
+been an insane success, and this game seemed like the next big thing. So, surelyinvestinglarge
+amounts of money would be an excellent idea. While investingin suchascenewas agreatidea,
+it isprobablythat toomuch moneywasinvested.
+This applies to North American Valorant specifically, asthey aretheones goingthrough arather
+rough patch in history at the moment. This problem can be traced backtothe first everValorant
+offline internationaltournament, that isMastersReykjavik in2021.
+Despite releasing in early 2020,duetothe globalpandemic, Reykjavikwasthe first international
+tournament. Sentinels, a North American organization, was going straight for the win with a
+flawless record. However, one of their players was under some heavy allegations, and was
+unable to participate. So, they brought inTyson“TenZ” Ngo,an ex-professionalplayerwho was
+unable to make any waves in the online tournaments, to substitute for him. TenZ was under a
+contract with another organization, Cloud9, and so Sentinels had to buy him out. The money
+spent waswellover amillion, andthis causedaplayersalary inflation withinthe Valorantscene.
+At the time, it was seen as a necessary expense, and Valorant, as a rather new game, had an
+uncertain future of costs. So, teams were generous with their expenditure back then. However,
+the effects of that are being felt evennow atthe endof the2023season,where salariesaremuch
+too high to maintain a reliable business model. Investors are leaving aswell, becauseValorant’s
+esports does not seem worth the effort for pouring theirmoney in,asthe chancesof profitlessen
+by the day. As we enter the OFF//SEASON, which is a time where there are no “official”
+tournaments and players are being exchanged left and right, organizations are clearly trying to
+maintain a high quality team while livingoff Riot’s stipends.Thisis anunfortunate consequence
+of theearly inflationof salaries inValorant.
+Evil Geniuses is another terrible example of what not to do during the OFF//SEASON. Despite
+winning VCT Champions 2023, the organization offered an ultimatum totheirplayers. Look for
+another team, or stay with them and take a pay cut. Ateamthat proved theywere the bestin the
+world were forced to have to cut their salaries [5]. This was a tough decision, but some players
+did decidetomoveout.
+However, there was another issue, and that was the player buyout. Since those players were
+contracted to Evil Geniuses, another organization willing to pick up the player had to pay a
+buyout to Evil Geniuses.It hasbeen reportedthat offers ofeven ahundred thousand dollarswere
+declined [6]. Thisshowed nothingbut aterriblefuture for Valorant.
+This issue is prevalent even in traditional sports. Basketball, for example, is a very popular
+offender. There was a time where many considered the “dark age” of contracts, the reserve
+clause. Once a playeriscontracted intothe club,they areessentiallytheproperty ofthe club,and
+this would be the same for life. The club would have a monopolistic control over this player,as
+there wouldbenoincentivetopay ahigher salary.[7]
+The main issue requiring a solution quickly would be the treatment of Tier 2, since that would
+affect the salaries of Tier 1 through a domino effect. The most effective solution would be
+re-evaluating the franchising system, and the development of arelegationsystem,as mentioned.
+Limiting ascended teams to two years in the franchisedleaguemay beadecentidea, butalready
+franchised teamsthat performpoorly should beheavilyconsidered for relegation.
+One franchised team, DetonationFocusMe fromJapan performedextremelypoorly, asthey have
+not won a single tournamentwithin theentire year,fromLOCK//IN, aninternational tournament
+at the beginning of the year to celebrate the FranchisedLeague, thePacific League,and theLast
+Chance Qualifier, the last chance for non-qualified franchised teams to make it intoChampions.
+DFM did not manage to win a single game, and so it wasquite concerning.A relegationsystem
+shouldatleast beput intoconsideration toensurethe highlevelofcompetition within Tier1.
+Secondly, create better incentives and a much more rigid schedule for Tier 2. No organization
+would want to pay their team a salary for eight months to do nothing, there is simply no good
+reason to do so. Thus, create amuchmoreflexible schedulefor teams tocompeteall yearround,
+and let Tier 2 teams into more events in the OFF//SEASON. Make Tier 2 much more
+competitive,rather thanit becomingadesert for organizationstodrytheir capital.
+Thirdly, more incentives for community involvement in Tier 2 wouldbeanother decentidea.At
+the moment, within the game’s menu screen itself, all players can see the franchised teams and
+their players. Additionally, anytime an international tournament was being held, there would be
+posters advertising it throughout the maps within the game. Players, as they are playing the
+game, can see these posters and read them. As we are currently at the end of the Valorant 2023
+season, the posters havethenamesof theValorant Champions2023winners.Thisis anexcellent
+way to engage players with the esport, even if they initially had no interest. Of course, beingin
+the franchised league is what allows for these kinds of in-game exposure. If Riot were to try to
+implement somethingto advertiseTier 2matches, itwouldsurelydraw muchmoreattention.
+For Tier 1 issues, the quickest solution would be salary caps, just like traditional sports.
+However, that will not be necessary. This is because the salaries are already adjusting
+automatically during this off period. All organizations are looking to ensure that their spending
+on salaries is much more regulated, after realizing how tight revenue will be after the new
+system.
+One main solution may not come from Riot, and that is player unions. These unions, although
+existing, do not have a lot of power within the Valorant economy. Thus, their influence on
+organizations,especiallythose that arefranchised,areincredibly limited.
+A salary cap may be a solution that couldbeconsidered, butit isvery theoretical, especiallytoa
+newgame likeValorant,andlike traditionalsports, thelimitmay eventruncate the organization’s
+ability to build a high quality team [8], which would possibly impact their performance in the
+league.
+Currently, an actual, direct solution may not be necessary. Riot needs not to implement any
+serious changes due to the automatic adjustments occurring. However,it wouldbegreatfor Riot
+to be more directly involved with how these organizations act. Right now, the economy is
+actually correcting itself, letting organizations think more on how to ensure they remain
+profitable while still fielding a competitive team for the2024season.However,Riotneeds tobe
+more vocal with how these players are being treated in order to create a much better ecosystem
+for Valorantesports.
+Overall, even as this essay is being written, solutions are being tested. Tier 2 organizations are
+merging with one another, or upright leaving, which increases the amount of free agents within
+the challenger leagues. Tier 1playersarelooking leftandright for the bestoffer theycan get.An
+excellent exampleisZellsis, afranchisedplayer whoused toplay for Cloud9.Hedecidedto join
+the organization Sentinels as a substitute, as he believes that the organization would be the best
+to build his brand. For players to also flourish within this winter, gaining more social presence
+wouldbe thebestway.
+Whether the changes and adjustments will work is not something that one can simplycalculate.
+It depends on the many external factors that affect the Valorant Esports economy, and personal
+decisions players and organizations alike will make from now on.Asobserversofthe scene,we
+canonly watchandsee howeverything rollsout.
+References:
+[1] Molen, Kas van der (2022, May 18). Valorant and the Platformization of Free-To-Play
+Games. PressStart,8(2), 16-22.
+https://press-start.gla.ac.uk/index.php/press-start/article/view/199/121
+[1] Alexander, J., & Hidayat, D. (2022). The effect of perceived quality, perceived enjoyment,
+and social influence toward brand loyalty of Valorant. Journal of Business, Management, and
+Social Studies,2(1), 1–8.https://doi.org/10.53748/jbms.v2i1.30
+[2] Leo Faria[@lhfaria]. (2023, July 30) I’d love to see The Guard winning. The whole point of
+guest slotsisseeingthoseCinderellastories andnewteams/pros makingitall theway tothe top!
+[Tweet].Twitter.
+https://twitter.com/lhfaria/status/1685503121236316161
+[3] ludwig[@LudwigAhgren]. (2023, July30). Alsocanwe fix relegationafterTheGuardproves
+Tier 2 is better than many Tier 1 teams [Tweet]. Twitter.
+https://twitter.com/LudwigAhgren/status/1685401300367007744
+[4] Steinkuehler, C. (2019). Esports Research: Critical, Empirical, and Historical Studies of
+Competitive Videogame Play. Games and Culture, 15(1). 1-2,
+https://doi.org/10.1177/1555412019836855
+[5] Mclaughlin , D. (2023, September 14). Eg valorant players reportedly offered 50% pay cut
+despite winning valorant champions. Dexerto.
+https://www.dexerto.com/valorant/eg-valorant-players-reportedly-offered-50-pay-cut-despite-wi
+nning-valorant-champions-2292528/
+[6] Fisher, C. (2023, September 24). Evil Geniuses Valorant rosterreportedly stuckin“contract
+jail” despite pay cuts. Dexerto.
+https://www.dexerto.com/valorant/evil-geniuses-valorant-roster-reportedly-stuck-in-contract-jail-
+despite-pay-cuts-2306942/
+[7] Compensation and working conditions. (1991). . U.S. Dept. of Labor, Bureau of Labor
+Statistics,Office of Compensation andWorking Conditions.
+[8] Scully,G.W. (2000). Themarket structure ofsports.TPB.","The Winter Esports approaching Valorant
+Andrew Tanuwijaya
+Valorant is a tactical five versus five first person shooter developed by Riot Games in which
+accurate gunplay goes hand in hand with unique agent abilities",[,
+ValorantAgainsttheFPSWorld.pdf,.pdf,139543,2024-11-29 08:14:53,"L3BC AndrewTanuwijaya 2602158216
+Valorant Against The World of FPS
+Games have always changed across the different centuries of human existence. From the early
+existence of throwing dice and sticks [1] to nostalgic retro games, the concept of “games” has
+always existed, and will always continue to grow alongside mankind. Technology has evolved,
+and with that evolution comes the ability to make even more interactive and immersive games.
+Counter-Strike: Global Offensive was the biggest FPS game for the 2010s. A simple terrorist
+versus counter-terrorist game where the objectiveis toplant anddetonatethe bomb,ordefeat the
+terrorists and defuse the bomb, depending on the side you were playing on. The tacticalshooter
+genreblew up,dueto CS:GO’smassive success.
+Riot Games found massive success when they released their multiplayer online battle arena
+(MOBA) named League of Legends. In 2019 however, they launched a closed beta test for a
+game temporarily titled Project A. The goalbehind thisproject wastocreate amorecasual game
+for players with anesports scenethatstill remainspassionate. ProjectA wastheir attempttodive
+into the tactical shooter market, and in June 2020, the game was released, under the name
+Valorant[2]. However,theuncertaintyof Valorant’ssuccesswasvery prevalent.
+This uncertainty was due to the already saturated first person shooter market. Theleadinggame
+was the aforementioned Counter Strike, but there were plenty that also hadits fillofthe market.
+Another notable example is Overwatch. While there are much more, these two are going to be
+the main comparisons when discussing Valorantagainst theWorld of First PersonShooters.This
+is due to Counter Strike’s similarity in objectives, andOverwatch’scharacter abilitypool.While
+L3BC AndrewTanuwijaya 2602158216
+each game hasits uniquefeatures, comparisonswillbemade toargue how Valorantstandsout or
+fallsshortcomparedto otherFPS games.
+Before discussing any main points, clarifications about each game must be made, asthey areall
+unique to one another. The main game in Counter Strike, as mentioned before, is terrorists
+against counter-terrorists. Terrorists must plant a bomb on a target location and defendituntil it
+detonates. Meanwhile, Counter-Terrorists must either eliminate all terrorists before the bomb is
+planted, or defuse the bomb once planted. With five players on both teams assigned randomly,
+theyfight in abest of 30rounds[3].
+Blizzard Entertainment released a first-person shooter game in 2016 under the name
+“Overwatch”. It is a multiplayer game, set in a distant future in which robots and humanity are
+under siege, necessitating a team to be created to fight back. The name of this organization is
+“Overwatch”, and each member had unique abilities or skills players could utilize in game.
+Teamswere dividedinto two,withsix playersoneach side.
+Within the game, there are four different game modes. Thefirst is“Assault”, oras playerscallit
+“2CP”. In this mode, teams alternate between offense and defense, where the offense aims to
+capture two points under a time limit. Second is “Escort”, where thereisan offenseanddefense
+once again. The offense has to escort a mobile payload through three preset checkpoints. The
+payload moves only when uncontested,as whenthereis oppositionnearby,it willnot move,or it
+will be stationary, depending on how many playersthereare.Third wouldbe“Hybrid”,whichis
+a combination of the two previously mentioned modes. Here, the attackers need to capture a
+L3BC AndrewTanuwijaya 2602158216
+point before the payload can beescorted. Lastis “Control”,where bothteamsfight tocontrol the
+central location of a map. The first team to win two out of threesections would gainthe overall
+victory. [4] Your team composition would usually have a mix of DPS (Damage per Second),
+Tanks, and Support. DPS is a role primarily filled by the players wanting to dish out the most
+damage. Tanks are characters that would absorb damage and become a shield for their team
+Supports prioritize either healing their team or “buffing” theirteam,a termwhichwouldusually
+mean increasingtheirdamage,or other waysofgiving theirteammatesan advantage.
+Last, but not least, is Valorant. Riot’s venture into theFPSgenreis ateambased fiveversusfive
+bomb defuse type of game, similar to Counter Strike’s iteration. However, there are different
+characters, or “agents”, as the game callsit,that the playercanchoose from.Asof writing, there
+are 23 agents that the player can use. The game introduces two parallelEarths,the AlphaEarth,
+where a resource called “Radianite” has been found, and it is in abundance. The other Earth,
+Omega Earth, also has found Radianite, but the resource has been run dry, and they are
+struggling to survive. Exposure to this resource has caused some abilities to manifest in people,
+which called for the need to form the “Valorant Protocol”. Omega Earth, however, utilizes their
+Valorant agents to travel to Alpha Earth and plant the “spike”, which would teleport the
+Radianite in the area back to their world. Alpha Earth’s Valorant agents are tasked with
+defending the area,and makingsurethat nomoreRadianiteisstolen.Theloregoes muchfurther
+and deeper,but thatwouldbethe basicpremise ofthe gameplaystructure.
+Valorant also has an agent category system. Four categories of agents exist: Duelists, Sentinels,
+Initiators, and Controllers [6]. These agents have different specialties that may bring their team
+L3BC AndrewTanuwijaya 2602158216
+an advantage to win a round. Duelists are the aggressive agents. Their abilities focus on
+gathering space for their team, and trying to get kills in order to gain an advantage. This class
+may be the one to dictate the pace ofthe roundandcontrol thegame. Themost popularexample
+is Jett, a Korean duelist that has the ability to dash towards a certain direction and reduce the
+distance between her and the enemy [7]. Next is Sentinels, a category focused on maintaining
+space. Their specialty is the ability to hold a part of the map that their team already has control
+over. For example, Cypher’s main ability is tripwires that will reveal enemies upon contact [8].
+Initiators cangather information onenemylocations orassist aduelistinitiate ontoa site.Sova,a
+Russian agent, can shoot an arrow that will reveal all enemies within line of sight [9]. Lastly is
+controllers, agents who can smoke areas of the map off to reduce the chokepoints and allow
+easier fights. They can reduce the amount of angles their team has to check before attacking.
+Brimstone, for example,hasthreesmokesin hisarsenal [10].
+The best way to begin is by comparing the mechanics ofthe game, thevery backbone thatholds
+up each game. For this section, a comparison to Counter Strike is more relevant due to the fact
+that they are similar in styles ofplay. Valorantis ateambased gamein whicheconomy,gunplay,
+and team play are incredibly important. Players start on the randomly predetermined side, and
+are given thirty seconds (aside from the first round, which gives forty seconds instead) to
+purchase a combination of guns and abilities [5]. The economy system is built upwhenaround
+is over and a winner is determined, which gives teams a different amount of money based on
+objectives completed throughout the round (planting the spike, kills) andofcourse whetherthey
+wintheround or not.
+L3BC AndrewTanuwijaya 2602158216
+Once a round starts, players move out,tradingblows withoneanother, andexchangingpiecesof
+information through abilities or duels. Players take space through the map, and the attackers hit
+the site they think is weaker, plant the spike, and defend it until it explodes. Defenders, during
+this time, must try to figure out which site attackers are going to hit, and attempt to stop it or
+defuse the spike. Players can also gather “ultimate orbs” for their character to build up to their
+ultimate ability. These are obtained through either killing an opponent, dying, or collecting an
+ultimate orb which are spread throughout the map. Team compositionscan also bealargefactor
+in howa gamemight goduetothe differentagent types.
+Now we move on to Counter Strike’s mechanics. In contrast to Valorant’s best of 13, Counter
+Strike instead has a best of 16. The main method of how a game goes is similar to Valorant, in
+terms of the attacker and defender objectives. Map control and the trading of information is the
+integral backbone of winning a round. However, one large contrast between Valorant and
+Counter Strike is the latter’s lack of agent abilities. Instead, everyone plays similar characters
+that can purchase incendiary, smoke, and flash grenadestoplay themap. Thisstarkdifference in
+available utilityisthemajordifference between thetwo.
+Thus thematically, in terms of a macro play, Valorant is a much more challenging game due to
+the insane amount of different abilities that require you toplanmuch further ahead. Asthereare
+five different controllers, that equates to five different ways to “smoke off” the map, or to split
+up areas of the map. The same can be said for all the agents within each class, as they all have
+many abilities and different ways to play around them. The “meta”, which is short for “most
+effective tactics available”, is always changing, especially since agent abilities and maps are
+L3BC AndrewTanuwijaya 2602158216
+always getting changed and reworked. Counter Strike, however, seldom does these kinds of
+changes.Some mapswouldrequire youtosmoke acertain areatotake aspecificpartof themap,
+maybe you need to gather space in three spots, or you need to take fights towards a lane [11].
+The way you play nevertruly changes,whichiswhy it ismuch moredifficult tocontrolthe flow
+and paceof thegame inValorant.
+The second point regards the character design and abilities within each game. As mentioned
+before, Counter Strike does not have any agent variety whatsoever. You load onto the map, and
+you have theexactsameutilityoptions as theothernine playerswithin thegame. Overwatchand
+Valorant, however, have different roles and abilities, which makes for an interesting case to
+cover.
+Overwatch’s game is incredibly fast paced. Regardless of the gamemode,the overallpace of the
+match would be extremely quick due to the massive amounts of damage characters can do and
+how fast objectives can be completed. Overwatch requires fast reactions, thinking, and
+adaptations as the ability to change characters in the middle of the game is an option. Players
+need to defend the payload, to hold down a part of the map, and once someone is eliminated,
+theyrespawnquickly sotheycan returnandrecontestthe areas.
+Valorant, on the other hand, is much slower paced, reminiscent of Counter Strike instead. Not
+only is it round oriented, but since Valorant’s objective is more towards map control and
+outthinking the enemy, players tendtoslowly playthe map,gather information,maintaincontrol
+of areas before executing orretaking asite.However,once aplayeris eliminatedduringa round,
+L3BC AndrewTanuwijaya 2602158216
+they do not come back (with the exception of Sage’s “ultimate”, which can revive a character,
+though it requires a large amount of ultimate orbs). This forces players to be smarter with their
+lives,asa deathwill greatly impacttheoverall firepower ofthat specificround.
+Abilities are incredibly important in both games. In Overwatch, the mainreason for itsintensity
+and face pace is due to abilities being the character’s central identity. Rapid cooldowns and a
+diverse amount of skills are the reason for its insane pace, which forces players to master their
+primary weapons (which is presetfor each character)alongsidetheirabilities.Valorant’sabilities
+are also an integral part of each character. However, they are designed to complement the
+gunplay instead of overshadow it. This slower pace requires players to carefully plan how they
+usetheir skillsin contrasttoOverwatch’s constantflashyengagements.
+So, Overwatch demands fast decision-making with reactions, while Valorant rewards a much
+more strategic and calculated support. Which point is better would lie intheplayer’s preference
+in rapid engagements or strategic, methodical depth within Valorant’s gameplay. Both games
+need a strong sense of adaptability, despite showcasing a different need for it. This is another
+reason whyValorantstands outinits uniquenesswithOverwatch.
+The next point to make would be the graphicsof thegames.This isaquick pointto makedue to
+its simplistic nature. Counter Strike, Valorant, and Overwatch all have rather different styles.
+Counter Strike implements a more “realistic” visual, as realism is one of the main focal points
+players pride themselves upon. Both Overwatch and Valorant, on the other hand, use a more
+cartoonish style for their worlds. One could wonder then, what exactly would set the styles of
+L3BC AndrewTanuwijaya 2602158216
+Valorant and Overwatch apart. Well, simply put, Valorant goes for a more middle ground
+approach for theirvisuals, whileOverwatchexaggerates itspalettes anddesign tocreate aunique
+identity. This is not a bad aspect, due tothe factthat Overwatchisa muchfasterpaced andteam
+oriented game. Valorant’s approach makes sense as it has unique abilities yet straightforward
+gameplay.
+The final point is the esportssceneof each game.Themost fair waytocomparethis wouldbeto
+look at the most recent events, as Counter Strike: Global Offensive held its last tournament
+before it shut down, Valorant Champions 2023 (Valorant’s largest annual event) just concluded,
+and theOverwatchWorld Championship alsorecently ended.
+Counter Strike’s last tournament is called the BLAST Paris Major 2023. According to
+escharts.com, the prize pool is1.25millionUSD. Theeventhad apeakviewership of1.5million
+viewers, and had an average of 507 000 viewers. Valorant’s most recent tournament is
+Champions Los Angeles. Evil Geniuses were the winners, with Paper Rex beingthe runnerups.
+The event peaked at 1.29 million viewers, andanaverage viewershipof 491000viewers,which
+is relatively close considering the game is still in its infancy. The Overwatch World Cup,onthe
+otherhand, hada peakviewership of318000,and averagedat around129000viewers.
+So we can certainly draw some conclusions from these statistics. Esports is a massive market,
+and much can be gained from it. A lot of people find it enjoyable, as the suspenseand dramais
+one of the core valuesthatmany appreciate.A lotof viewersenjoywatching the players,andthe
+aesthetic beauty of it is simply worth watching [12]. Now for the numbers, it is clear Counter
+L3BC AndrewTanuwijaya 2602158216
+Strike istheleaderin termsof FPSesports, withValorantcoming close.Thus,it wouldbelogical
+to say “Counter Strike” has the best esports scene. However, this statement is true if we were
+only consideringtheoffline events.
+Esports is often being streamed online, and popular streamers would “co–stream” the event,
+another wordfor streaming theevent andproviding theirown commentaryfor theirviewers. One
+popular Valorant streamer is Tarik, an ex-CSGO player who managed to win the Boston major.
+Many viewers enjoy watching his takeongames,as heoftenhas moreviewersthanthe Valorant
+channel. However, even if you are a small streamer with one or twoviewers, whileyouwill not
+be an official partner, you are still allowed to co-stream games. The same can be said for the
+Overwatch League, On the other hand, with Counter Strike, as long as you are a large channel,
+co-stream permissions are noproblem.However,smallchannels averaginglessthan 500viewers
+or so haveanincredibly lowchanceto obtainthe permissions[11]. Thisis becausemost Counter
+Strike tournaments are outsourced to different organizers, thus creating complications when
+requesting access.
+So, while Counter Strike may have higher viewership, the ability to co-stream and grow the
+scene’s online presence is much more prevalent with Valorant. This allows much better growth
+for the esports scene, and a more sustainable ecosystem for the game. This has helped Valorant
+gaina betterbrandidentityas agame, whichalso propelledits success [13].
+In conclusion, games have been simply growing at an incredible rate throughout the past years.
+Counter-Strike: Global Offensive was a dominant giant in the first-person shooter genre, which
+L3BC AndrewTanuwijaya 2602158216
+helped set the stage for Riot Games to enter the market with Valorant. Using unique agentsand
+abilities, it managed to stand out and gain a large following over the past three years. CS:GO
+focuses on its gunplay, movement, and economy. Valorant prefers abilities to influence gunplay
+and map control. Overwatch goes for the ability focused, fast pace engagements. With its
+esports, thanks to Valorant allowing co-streaming, theplatform is moreaccessibleandinclusive,
+allowing for itsgrowth over time.
+Each discussed FPS game has its own unique strength. CS:GO’s golden legacy, Valorant’srapid
+growth, and Overwatch’s interesting gameplay cater to the diverse FPS market preferences. As
+the gaming market continues to evolve, Valorant does stand out while still making space for
+evolutionwithin thecompetitivegaming landscape.
+References:
+[1] Brewster,P.G.(1970). Theearliestknown listofgames:Some comments.ActaOrientalia,
+23,10.https://doi.org/10.5617/ao.5305
+[2] Moore,B.(2023, September 13).When didvalorantrelease?.Esports.gg.
+https://esports.gg/guides/valorant/when-did-valorant-release/
+[3] Counter-strike:Global offensive.Counter-Strike:GlobalOffensive -Valve Developer
+Community.(n.d.). https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive
+[4] DeMartino,J. (n.d.). Overwatch101: What youneedto knowabout Blizzard'steam-based
+shooter.ESPN.
+https://www.espn.com/esports/story/_/id/28960008/overwatch-101-need-know-blizzard-team-bas
+ed-shooter
+[5] Richard Wilcox,S.H. (2022a, August23).Valorant EconomyGuide- Valorant Guide.IGN.
+https://www.ign.com/wikis/valorant/Valorant_Economy_Guide
+L3BC AndrewTanuwijaya 2602158216
+[6] Richard Wilcox,S.H. (2022b,September 7).Concepts:Roles inValorant -Valorant Guide.
+IGN.https://www.ign.com/wikis/valorant/Concepts:_Roles_in_Valorant
+[7] Valorant agents:Jett,aduelistfrom SouthKorea.VALORANT. (n.d.).
+https://playvalorant.com/en-us/agents/jett/
+[8] Valorant agents:Cypher, aSentinelfromMorocco.VALORANT. (n.d.-a).
+https://playvalorant.com/en-us/agents/cypher/
+[9] Valorant agents:Sova,aninitiator fromRussia.VALORANT.(n.d.-d).
+https://playvalorant.com/en-us/agents/sova/
+[10] Valorant agents:Brimstone, acontroller fromtheUSA.VALORANT. (n.d.-a).
+https://playvalorant.com/en-us/agents/brimstone/
+[11] YouTube.(2023). CS2VsValorant -WhichGame Is BetterIn2023?YouTube.Retrieved
+November13,2023,fromhttps://www.youtube.com/watch?v=_n-U85IT0gM.
+[12] Xiao, M.(2020). Factors InfluencingeSportsViewership: AnApproach Basedonthe
+Theory of ReasonedAction.Communication& Sport,8(1), 92-122.
+https://doi.org/10.1177/2167479518819482
+[13] [Tylerranger22]. (2023,June).Can anyoneco-stream CSGO eventsjustwithout the
+broadcast butwith thedemo? [Online forumpost].
+Reddit.https://www.reddit.com/r/GlobalOffensive/comments/15aa86h/can_anyone_costream_csg
+o_events_just_without_the/
+[14] Alexander,J.,& Hidayat,D. (2022). Theeffect ofperceived quality, perceivedenjoyment,
+and socialinfluence towardbrand loyaltyofValorant. Journal ofBusiness,Management,and
+Social Studies,2(1), 1–8.https://doi.org/10.53748/jbms.v2i1.30
+[15] Blast.tv ParisMajor2023/statistics -escharts.com. (n.d.).
+https://escharts.com/tournaments/csgo/blasttv-paris-major-2023
+[16] ValorantChampions2023/statistics -escharts.com. (n.d.).
+https://escharts.com/tournaments/valorant/valorant-champions-2023-valorant
+[17] OverwatchWorld Cup 2023/statistics- escharts.com.(n.d.).
+https://escharts.com/tournaments/ow/overwatch-world-cup-2023
+L3BC AndrewTanuwijaya 2602158216",L,L,
+WebAppOptimizationandArchitectures.pdf,.pdf,82248,2024-11-29 08:14:53,"2602158216
+Andrew Tanuwijaya
+1. (Part 1) SPA and MPA
+Single Page Application, or SPA, is a web application that dynamically
+rewrites the existing web page with data from the server. It essentially
+functions like an application instead of a website where the page is
+constantly refreshed.
+Multi-Page Application, or MPA, is the common approach for websites that
+host a lot of content. Multiple web pages are downloaded when the user
+opens the site.
+A good aspect of SPA is an excellent progressive web application conversion
+[1]. As the page is not reloaded, users can work offline, allowing for a faster
+user experience. However, a lot of the advantages differ according to the
+developer and their requirements. Development is more difficult in MPA,
+though its scalability is limitless compared to SPA, which is severely limited
+due to the single page. SPA is also less Search Engine Optimization (SEO)
+friendly. Although recent development in technology has improved
+performance, there are still issues with indexing SPAs compared to MPAs
+[2].
+1. (Part 2) SSR and CSR
+Server-Side Rendering means that the web pages are rendered on the server,
+sending the completed HTML to the browser instead. This improves initial
+loading speed and SEO performance, though of course, the load is heavier
+on the server.
+Client-Side Rendering, on the other hand, uses JavaScript to render the web
+page on the browser. Server load is lighter, but the initial loading is longer
+and SEO problems may occur [3].
+Advantages and disadvantages, once again, depend on the user. For
+minimal/static sites, SSR is a much more enticing option. Faster initial load
+speeds, and better SEO. Minimalism is preferred due to slow page rendering,
+especially with larger elements and higher latency whenever there is an
+influx of traffic. It also needs a bigger server to perform well in contrast to
+CSR.
+CSR is a better option for general websites, especially if expectations of high
+traffic and performance exists. Rendering will be slower for the first upload,
+but since there is no waiting time for every page to render, the next page will
+be fast. Server load is much lower, enhancing the user experience. The
+disadvantages are slower initial loading, and it requires more browser
+resources. This means that older devices may not be compatible, like
+outdated school laptops [4].
+2. CDN, otherwise known as Content Delivery Network, is a server network
+optimized best to deliver content to users as fast as possible [5]. Speed and
+security are two major aspects it specializes in improving by caching content
+on geographically distributed servers.
+The most common algorithms include:
+- Request Routing: The algorithm uses network latency and user
+preferences to decide the best CDN server to complete a user request
+[6]. Here, DNS-based algorithms are the most common.
+- Content Placement: The algorithm here uses content popularity,
+network topology, and cost to decide the location and method to
+storing content on CDN servers. Static, dynamic, and hybrid
+algorithms are used.
+- Content Replication: Determining when and how to replicate content
+throughout all the CDN server using content freshness and server
+load.
+3. Load balancing is when client requests are distributed throughout several
+servers to help with resource optimization [7], ultimately preventing server
+overloading while performance and reliability of applications are
+significantly enhanced.
+Some commonly implemented algorithms include the following:
+- Round Robin: (I found this one the funniest, because I understood it
+immediately as it was a very popular video game format) In video
+games, the round robin format is when all teams play against one
+another, and the teams that wins the most would move forward to a
+playoff format, or would win the tournament immediately. The same
+logic can be applied here to load balancing, where requests are
+allocated to servers sequentially. Each server handles the request in a
+rotational manner. While this is the simplest method, in video games,
+this means that even the most experienced team may face off against a
+very weak team. In load balancing, the load or capacity of the server is
+not taken into account.
+- Weighted Round Robin: Unlike the Round Robin format, requests are
+assigned using predefined weights per server. While it can handle
+differing servers, real-time load is still not taken into account.
+- Least Response Time: Requests are allocated to servers with the
+lowest response time, calculated by adding server connection time and
+average response time. While user experience is greatly increased,
+monitoring is extremely necessary for this type of algorithm [8].
+References:
+[1] Spa vs MPA: What is better, faster, stronger? - mindk blog. Web and
+Mobile App Development Company - MindK.com. (2023, January 12).
+https://www.mindk.com/blog/single-page-applications-the-definitive-guide/
+[2] Tran, T. (2022, September 19). Spa vs. MPA: Pros, Cons & How to Make
+Final Choice - Simicart. SimiCart Blog | eCommerce Insights & Magento
+Tutorials. https://www.simicart.com/blog/spa-vs-mpa/
+[3] Foundation, C. (2021, April 8). Advantages and disadvantages of
+Corporate Social Responsibility (CSR). Medium.
+https://medium.com/@catchfoundationngo/advantages-and-disadvantages-of-
+corporate-social-responsibility-csr-e0fb217a0e13
+[4] Khanum, T. (2021, November 1). Server-side rendering (SSR) vs
+client-side rendering (CSR). DEV Community. https://dev.to/codewitht
+[5] Katie Hempenius X, & X. (2023, December 5). Content delivery networks
+(cdns) : articles : web.dev. web.dev.
+https://web.dev/articles/content-delivery-networks
+[6] What is a content delivery network (CDN)? | how do Cdns ... (n.d.).
+https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+[7] GfG. (2024, January 31). Load balancing algorithms. GeeksforGeeks.
+https://www.geeksforgeeks.org/load-balancing-algorithms/ee/server-side-rend
+ering-ssr-vs-client-side-rendering-csr-3m24
+[8] S, A. (2023, July 11). Load balancing 101: Understanding the basics for
+improved web performance. Atatus Blog - For DevOps Engineers, Web App
+Developers and Server Admins.
+https://www.atatus.com/blog/what-is-load-balancing-and-how-load-balancers-
+work/",Andrew Tanuwijaya,R,
