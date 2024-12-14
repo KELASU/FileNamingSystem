@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FileUploader from "./component/FileUploader";
 import FileList from "./component/FileList";
-import './App.css';
+
 
 export default function App() {
   const [files, setFiles] = useState([]);
